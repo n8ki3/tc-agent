@@ -37,10 +37,10 @@ tr:last-child td{border-bottom:none}
 <h1>🧪 [26][2Q] 쿠폰함 개선 — 테스트 케이스</h1>
 <p class="meta">PRD v1.4 + Figma 병합 기반 | 작성: 2026-05-27 | Sprint: 10S, 11S</p>
 <div class="summary">
-<div class="card"><div class="num">28</div><div class="lbl">전체 TC</div></div>
+<div class="card"><div class="num">26</div><div class="lbl">전체 TC</div></div>
 <div class="card crit"><div class="num">6</div><div class="lbl">Critical</div></div>
 <div class="card high"><div class="num">12</div><div class="lbl">High</div></div>
-<div class="card med"><div class="num">10</div><div class="lbl">Medium</div></div>
+<div class="card med"><div class="num">8</div><div class="lbl">Medium</div></div>
 </div>
 
 <div class="cat">
@@ -141,10 +141,9 @@ tr:last-child td{border-bottom:none}
 <div class="cat">
 <div class="cat-title">TC-06. D-day 표기</div>
 <table>
-<tr><th>ID</th><th>테스트명</th><th>사전 조건</th><th>기대 결과</th><th>우선순위</th></tr>
-<tr><td>TC-06-01</td><td>오늘 만료</td><td>쿠폰 만료일 = 오늘</td><td>유효기간 옆에 "(오늘 만료)" 텍스트 표시</td><td><span class="badge badge-high">High</span></td></tr>
-<tr><td>TC-06-02</td><td>1일 남음</td><td>쿠폰 만료일 = 내일</td><td>유효기간 옆에 "(1일 남음)" 텍스트 표시</td><td><span class="badge badge-med">Medium</span></td></tr>
-<tr><td>TC-06-03</td><td>N일 남음</td><td>쿠폰 만료일 = 14일 후</td><td>유효기간 옆에 "(14일 남음)" 텍스트 표시</td><td><span class="badge badge-med">Medium</span></td></tr>
+<tr><th>ID</th><th>테스트명</th><th>사전 조건</th><th>실행 단계</th><th>기대 결과</th><th>우선순위</th></tr>
+<tr><td>TC-06-01</td><td>만료 임박 쿠폰 D-day 표시</td><td>쿠폰 만료일이 임박한 쿠폰 존재</td><td>쿠폰함 진입</td><td class="result">• 유효기간 옆에 D-day 텍스트 표시 (피그마 화면에서 확인)
+<span class="undefined">• [미정의] D-day 표기 형식 ("오늘 만료", "N일 남음" 등 구체적 문구)은 PRD에 미정의. 피그마 화면 기준으로 확인 필요</span></td><td><span class="badge badge-high">High</span></td></tr>
 </table>
 </div>
 

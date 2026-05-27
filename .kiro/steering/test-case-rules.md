@@ -103,5 +103,21 @@
 - 마크다운(`.md`)과 HTML(`.html`) 두 형식으로 동시 관리한다.
 - **test-cases.md를 생성하거나 수정할 때 반드시 대응하는 test-cases.html도 동일하게 생성/수정한다.**
 - HTML은 브라우저에서 열어 시각적으로 확인할 수 있도록 스타일링한다.
+- **HTML 스타일 및 구조는 `examples/coupon-box/coupon-box-test-cases.html`을 템플릿으로 참조한다.** 동일한 CSS 클래스, 뱃지 스타일, 테이블 구조를 유지한다.
 - 우선순위는 뱃지로 표시: Critical(빨강), High(주황), Medium(파랑).
 - 미정의 항목은 보라색(`#7c3aed`) 텍스트로 시각적 구분한다.
+
+## 예시 참조
+
+- TC 작성 시 `examples/coupon-box/` 폴더의 결과물을 출력 형식과 품질 기준으로 참조한다.
+- 통합 명세 형식: `examples/coupon-box/coupon-box-improvement.md`
+- TC 마크다운 형식: `examples/coupon-box/coupon-box-test-cases.md`
+- TC HTML 형식: `examples/coupon-box/coupon-box-test-cases.html`
+
+## 파일 네이밍 규칙
+
+- 피처명은 **영문 kebab-case**로 작성한다. (예: `coupon-box`, `loan-apply`, `credit-intro`)
+- 통합 명세: `aidlc-docs/features/{feature-name}.md`
+- TC 마크다운: `aidlc-docs/features/{feature-name}-test-cases.md`
+- TC HTML: `aidlc-docs/features/{feature-name}-test-cases.html`
+- 한글 피처명이 주어지면 의미를 유지하면서 영문 kebab-case로 변환한다.
