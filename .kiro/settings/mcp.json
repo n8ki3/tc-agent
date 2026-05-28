@@ -2,7 +2,15 @@
   "mcpServers": {
     "figma": {
       "url": "https://mcp.figma.com/mcp",
-      "type": "http"
+      "type": "http",
+      "autoApprove": [
+        "get_design_context",
+        "get_design_context",
+        "get_design_context",
+        "get_screenshot",
+        "get_screenshot",
+        "get_metadata"
+      ]
     }
   }
 }
