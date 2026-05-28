@@ -100,12 +100,48 @@
 
 ## 출력 형식
 
+### 산출물 목록
+
+피처 분석 시 다음 산출물을 `aidlc-docs/features/` 하위에 생성한다:
+
+| 산출물 | 파일명 | 설명 |
+|--------|--------|------|
+| 통합 명세 | `{feature-name}.md` | PRD + 피그마 분석 결과를 하나로 병합한 문서 |
+| 이해충돌 체크리스트 | `{feature-name}-checklist.html` | PRD↔피그마 충돌/미정의 항목을 사용자가 브라우저에서 확정하는 인터랙티브 HTML |
+| TC 마크다운 | `{feature-name}-test-cases.md` | 테스트 케이스 본문 |
+| TC HTML | `{feature-name}-test-cases.html` | 브라우저에서 시각적으로 확인 가능한 TC |
+
+### 통합 명세 구조
+
+통합 명세(`{feature-name}.md`)는 다음 섹션을 포함한다:
+
+1. **핵심 목표** — KPI, 목표값
+2. **이벤트 스킴** — 대상, 기간, 유입구, 리워드, 예산
+3. **User Flow** — 텍스트 기반 플로우차트 (공통 네비게이션 포함)
+4. **화면 정책 상세** — 화면별 테이블 (문구, 상태, 분기 조건)
+5. **포인트/리워드 지급 정책** — 확률, 금액, 인원 (해당 시)
+6. **이벤트 로그** — 이벤트 키, 설명, 파라미터
+7. **기술 요구사항** — API, 데이터 저장, 연동 사항
+8. **미결/확인 필요 사항** — 확정 이력 + 잔여 미확정 항목 + PRD 업데이트 반영 이력
+
+### 이해충돌 체크리스트 규칙
+
+- 충돌 항목 / 미정의 항목 / 일치 항목으로 섹션 분리한다.
+- 각 충돌/미정의 항목에는 **출처 위치**(PRD 섹션명, Figma 프레임명)를 반드시 명시한다.
+- 각 항목에 선택 가능한 옵션 버튼을 제공한다 (예: "PRD 기준" / "Figma 기준" / "확인 필요").
+- 로컬 스토리지로 선택 상태를 저장하여 브라우저 새로고침 시에도 유지한다.
+- 모든 항목 확정 후 결과를 클립보드에 복사할 수 있는 내보내기 기능을 포함한다.
+- 스타일: 충돌(빨강 배경), 미정의(보라 배경), 일치(초록 배경)로 시각 구분한다.
+
+### TC 출력 형식
+
 - 마크다운(`.md`)과 HTML(`.html`) 두 형식으로 동시 관리한다.
 - **test-cases.md를 생성하거나 수정할 때 반드시 대응하는 test-cases.html도 동일하게 생성/수정한다.**
 - HTML은 브라우저에서 열어 시각적으로 확인할 수 있도록 스타일링한다.
 - **HTML 스타일 및 구조는 `examples/coupon-box/coupon-box-test-cases.html`을 템플릿으로 참조한다.** 동일한 CSS 클래스, 뱃지 스타일, 테이블 구조를 유지한다.
 - 우선순위는 뱃지로 표시: Critical(빨강), High(주황), Medium(파랑).
 - 미정의 항목은 보라색(`#7c3aed`) 텍스트로 시각적 구분한다.
+- TC 마크다운 상단에 커버리지 요약 테이블(카테고리별 TC 수, 우선순위별 수)을 포함한다.
 
 ## 예시 참조
 
@@ -117,7 +153,15 @@
 ## 파일 네이밍 규칙
 
 - 피처명은 **영문 kebab-case**로 작성한다. (예: `coupon-box`, `loan-apply`, `credit-intro`)
-- 통합 명세: `aidlc-docs/features/{feature-name}.md`
-- TC 마크다운: `aidlc-docs/features/{feature-name}-test-cases.md`
-- TC HTML: `aidlc-docs/features/{feature-name}-test-cases.html`
+- 피처별로 **폴더를 생성**하여 산출물 4종을 한 세트로 관리한다.
 - 한글 피처명이 주어지면 의미를 유지하면서 영문 kebab-case로 변환한다.
+
+### 폴더 구조
+
+```
+aidlc-docs/features/{feature-name}/
+├── {feature-name}.md                  ← 통합 명세
+├── {feature-name}-checklist.html      ← 이해충돌 체크리스트
+├── {feature-name}-test-cases.md       ← TC 마크다운
+└── {feature-name}-test-cases.html     ← TC HTML
+```
