@@ -107,19 +107,19 @@ aidlc-docs/features/{feature-name}/
 
 | 항목 | 내용 |
 |------|------|
-| 입력 | Confluence PRD v3.1 (API 연동) + Figma 9개 화면 + User Flow |
-| 산출물 | 통합 명세 + 체크리스트 HTML + TC 36건 (Critical 12 / High 21 / Medium 3) |
+| 입력 | Confluence PRD v3.1 (API 연동) + 최종 디자인 Figma (별도 파일) |
+| 산출물 | 통합 명세 + 체크리스트 HTML + TC 32건 (High 16 / Medium 12 / Low 4) |
 | 위치 | `aidlc-docs/features/car-number-promo/` |
-| 특이사항 | PRD 업데이트 반영 (이해충돌 확정 후 추가 정책 변경 즉시 반영) |
+| 특이사항 | 기획안 Figma와 최종 디자인 Figma가 별도 파일로 존재 → 최종 디자인 기준 재분석 수행 |
 
 #### 차번호 프로모션 — 실행 과정 요약
 
-1. **Confluence API로 PRD 자동 수집** — 사용자가 URL + 인증 정보 제공 → API 호출로 HTML 파싱
-2. **Figma MCP로 디자인 분석** — `get_metadata` → `get_screenshot` → `get_design_context`로 9개 화면 + User Flow + 유의사항 텍스트 추출
-3. **이해충돌 10건 발견** — 팝업 X 버튼 유무, CTA 문구 불일치, 동의서 종속 관계 등
-4. **인터랙티브 체크리스트 생성** — 브라우저에서 사용자가 10건 모두 확정
-5. **TC 36건 생성** — 확정 결과 기반, 근거 없는 추측 0건
-6. **PRD 업데이트 즉시 반영** — 이후 추가 정책 변경(상단 네비게이션 변경, 유효성 검증 방식 변경 등) 수신 → 명세 + TC 동시 업데이트
+1. **Confluence API로 PRD 자동 수집** — `.env` 인증 정보 기반 자동 호출
+2. **Figma MCP로 디자인 분석** — 기획안 파일 분석 후, 최종 디자인 파일 별도 존재 확인 → 최종 파일 기준 재분석
+3. **이해충돌 10건 발견 → 사용자 확정** — 인터랙티브 HTML 체크리스트로 브라우저에서 확정
+4. **PRD 업데이트 즉시 반영** — 상단 네비게이션 변경, 유효성 검증 방식 변경 등
+5. **최종 디자인 기준 전면 재작성** — 이모지 제거, 텍스트 정확 반영, TC 32건 생성
+6. **우선순위 체계 변경 적용** — Critical/High/Medium → High/Medium/Low 3단계
 
 ---
 
@@ -168,10 +168,10 @@ qa-workflow.md (전체 흐름 오케스트레이션 + 산출물 규칙)
 
 | 규칙 파일 | 핵심 내용 |
 |----------|----------|
-| `qa-workflow.md` | 7단계 워크플로우, 산출물 규칙(파일로 떨구기), 이해충돌 검토 방식 |
-| `prd-analysis-rules.md` | 취소선=폐기, TBD=미확정, 최신 버전 우선, 회의록은 확정 결론만 |
+| `qa-workflow.md` | 7단계 워크플로우, 산출물 규칙(파일로 떨구기), 이해충돌 검토 방식, PRD 업데이트 반영 규칙 |
+| `prd-analysis-rules.md` | 취소선=폐기, TBD=미확정, 최신 버전 우선, 회의록은 확정 결론만, Confluence API 연동 |
 | `figma-analysis-rules.md` | Handoff 노트 필수 확인, 플로우차트 분기 추출, 기존 명세와 충돌 검토 |
-| `test-case-rules.md` | 근거 기반 원칙, 디자인 디테일 제외, TC 분리 기준, 산출물 4종 형식, 피처별 폴더 구조 |
+| `test-case-rules.md` | 근거 기반 원칙, 디자인 디테일 제외, TC 분리 기준, 산출물 4종 형식, 피처별 폴더 구조, 우선순위 판단 기준(High/Medium/Low) |
 
 ### 산출물 형식 규칙 (test-case-rules.md에 정의)
 
@@ -180,7 +180,15 @@ qa-workflow.md (전체 흐름 오케스트레이션 + 산출물 규칙)
 | 통합 명세 | 8개 섹션 구조 (목표 → 스킴 → Flow → 화면정책 → 리워드 → 로그 → 기술 → 미결) |
 | 체크리스트 HTML | 충돌/미정의/일치 섹션 분리, 옵션 버튼, 로컬스토리지 저장, 내보내기 기능 |
 | TC md | 카테고리별 테이블, 커버리지 요약 포함 |
-| TC html | examples 템플릿 CSS 준수, 뱃지 색상 통일 |
+| TC html | examples 템플릿 CSS 준수, 뱃지 색상 통일 (High 빨강/Medium 주황/Low 파랑) |
+
+### TC 우선순위 기준
+
+| 우선순위 | 기준 |
+|---------|------|
+| **High** | 우회 불가능한 핵심 플로우의 진행 불가 |
+| **Medium** | 명시된 기능의 오동작, 정책 위반 |
+| **Low** | 부가 기능, 편의성, UI/UX |
 
 ---
 
