@@ -7,6 +7,15 @@
 - PDF export (위키/노션/컨플루언스)
 - 마크다운 파일
 - 채팅에 첨부된 문서
+- **Confluence 페이지 URL** — API로 자동 수집
+
+## Confluence 연동
+
+- Confluence URL이 제공되면 `.env` 파일의 인증 정보를 사용하여 REST API로 페이지 내용을 가져온다.
+- 필요한 환경변수: `CONFLUENCE_BASE_URL`, `CONFLUENCE_EMAIL`, `CONFLUENCE_TOKEN`
+- API 호출: `GET {BASE_URL}/wiki/rest/api/content/{pageId}?expand=body.storage`
+- HTML 응답을 파싱하여 텍스트로 변환 후 분석한다.
+- `.env` 파일이 없거나 인증 실패 시 사용자에게 인증 정보를 요청한다.
 
 ## 추출해야 할 정보
 
