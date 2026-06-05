@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마수동 유도 인앱 바텀싯 3차 — 이해충돌 체크리스트</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; padding: 24px; line-height: 1.6; }
+h1 { font-size: 24px; margin-bottom: 8px; color: #1e293b; }
+.subtitle { color: #64748b; margin-bottom: 32px; font-size: 14px; }
+.section { margin-bottom: 32px; }
+.section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; padding: 8px 12px; border-radius: 8px; }
+.section-title.conflict { background: #fef2f2; color: #dc2626; }
+.section-title.undefined { background: #f5f3ff; color: #7c3aed; }
+.section-title.match { background: #f0fdf4; color: #16a34a; }
+.item { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 12px; }
+.item-header { font-weight: 600; font-size: 15px; margin-bottom: 8px; color: #1e293b; }
+.item-source { font-size: 13px; color: #64748b; margin-bottom: 12px; line-height: 1.8; }
+.item-source .prd { color: #2563eb; }
+.item-source .figma { color: #7c3aed; }
+.options { display: flex; gap: 8px; flex-wrap: wrap; }
+.option-btn { padding: 8px 16px; border: 1px solid #e2e8f0; border-radius: 20px; font-size: 13px; cursor: pointer; background: white; transition: all 0.2s; }
+.option-btn:hover { background: #f1f5f9; }
+.option-btn.selected { background: #4f46e5; color: white; border-color: #4f46e5; }
+.match-item { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 16px; margin-bottom: 8px; font-size: 14px; color: #166534; }
+.export-section { margin-top: 32px; text-align: center; }
+.export-btn { padding: 12px 32px; background: #4f46e5; color: white; border: none; border-radius: 8px; font-size: 15px; cursor: pointer; font-weight: 600; }
+.export-btn:hover { background: #4338ca; }
+.export-btn:disabled { background: #94a3b8; cursor: not-allowed; }
+.status { margin-top: 16px; font-size: 13px; color: #64748b; }
+</style>
+</head>
+<body>
+<h1>마수동 유도 인앱 바텀싯 3차 — 이해충돌 체크리스트</h1>
+<p class="subtitle">PRD↔Figma 분석 결과 | 각 항목을 확정한 후 TC 생성을 진행합니다.</p>
+
+<div class="section">
+<div class="section-title conflict">⚠️ 충돌 항목 (0건)</div>
+<p style="padding: 16px; color: #64748b; font-size: 14px;">PRD와 피그마 간 충돌 항목이 발견되지 않았습니다.</p>
+</div>
+
+<div class="section">
+<div class="section-title undefined">❓ 미정의 항목 (5건)</div>
+
+<div class="item" data-id="1">
+<div class="item-header">#1: 노출 제한 카운트 저장 방식</div>
+<div class="item-source">
+<span class="prd">📄 PRD: 3-3. 노출 정책 — 일일 제한, 전체 제한, 페이지당 제한 정의됨. 저장 방식(로컬/서버) 미언급</span><br>
+<span class="figma">🎨 Figma: 해당 정보 없음</span>
+</div>
+<div class="options">
+<button class="option-btn" data-value="server">서버 API 기반</button>
+<button class="option-btn" data-value="local">로컬 스토리지 기반</button>
+<button class="option-btn" data-value="need_confirm">정책 확인 필요</button>
+<button class="option-btn" data-value="exclude">TC에서 제외</button>
+</div>
+</div>
+
+<div class="item" data-id="2">
+<div class="item-header">#2: Snackbar 문구 내용</div>
+<div class="item-source">
+<span class="prd">📄 PRD: 3-1. 사용자 스토리 — "동의 완료" 언급만 있고 문구 미정의</span><br>
+<span class="figma">🎨 Figma: "신용관리_마수동_동의완료" / "출석체크_마수동_동의완료" 프레임 > Snackbar 컴포넌트 존재하나 텍스트 미확인</span>
+</div>
+<div class="options">
+<button class="option-btn" data-value="need_confirm">정책 확인 필요</button>
+<button class="option-btn" data-value="exclude">TC에서 제외 (노출 여부만 확인)</button>
+</div>
+</div>
+
+<div class="item" data-id="3">
+<div class="item-header">#3: 동의서 상세 화살표 클릭 시 이동 페이지</div>
+<div class="item-source">
+<span class="prd">📄 PRD: 언급 없음</span><br>
+<span class="figma">🎨 Figma: "BottomSheet" > Checkbox/T&C > Parts/Checkbox/Arrow 존재. 연결된 화면 프레임 없음</span>
+</div>
+<div class="options">
+<button class="option-btn" data-value="tc_include">약관 상세 페이지 이동 TC 포함</button>
+<button class="option-btn" data-value="need_confirm">정책 확인 필요</button>
+<button class="option-btn" data-value="exclude">TC에서 제외</button>
+</div>
+</div>
+
+<div class="item" data-id="4">
+<div class="item-header">#4: 단순 이탈의 구체적 동작 정의</div>
+<div class="item-source">
+<span class="prd">📄 PRD: 3-3. 노출 정책 — "단순 이탈 시: view 카운트 포함 / 7일 노출 금지 정책 미적용"</span><br>
+<span class="figma">🎨 Figma: "Dimmed" 인스턴스 존재 (바텀싯 뒤 딤드 영역). 구체적 이탈 인터랙션 미정의</span>
+</div>
+<div class="options">
+<button class="option-btn" data-value="dimmed_tap">Dimmed 영역 탭 = 단순 이탈</button>
+<button class="option-btn" data-value="need_confirm">정책 확인 필요</button>
+<button class="option-btn" data-value="exclude">TC에서 제외</button>
+</div>
+</div>
+
+<div class="item" data-id="5">
+<div class="item-header">#5: 랜덤포인트 팝업 내 "포인트함 바로가기" CTA 존재 여부</div>
+<div class="item-source">
+<span class="prd">📄 PRD: 3-1. 사용자 스토리 > 2: 랜덤포인트 — "단, 포인트 보러가기 CTA 클릭 시에는 노출하지 않는다."</span><br>
+<span class="figma">🎨 Figma: 랜덤포인트 섹션 > 트리거 화면이 스크린샷 이미지로 되어있어 CTA 버튼 구조 미확인</span>
+</div>
+<div class="options">
+<button class="option-btn" data-value="exists">포인트 보러가기 CTA 존재 (PRD 기준)</button>
+<button class="option-btn" data-value="need_confirm">정책 확인 필요</button>
+</div>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title match">✅ 일치 확인 (충돌 없음)</div>
+<div class="match-item">✓ 트리거 4개 지점 — PRD 3-3. 트리거 지점 · Figma 4개 섹션(출석체크/랜덤포인트/포인트함/신용관리) 일치</div>
+<div class="match-item">✓ 바텀싯 타이틀 문구 분기 — PRD 3-2. TO-BE 문구 · Figma BottomSheet 텍스트 일치 (트리거 1,2,3: "혜택과 이벤트 소식" / 4: "놓치고 있는 소식")</div>
+<div class="match-item">✓ 서브텍스트 "지금 동의하지 않으면 일주일 동안 볼 수 없어요." — PRD 미명시이나 Figma에서 확인, 7일 정책과 부합</div>
+<div class="match-item">✓ 동의서 구성 (전체 동의 + 광고성 수신 + 마케팅 수집) — Figma BottomSheet UI 일치</div>
+<div class="match-item">✓ CTA 구성 [아니요] / [네, 알려주세요] — PRD 이벤트 로그 · Figma Button/CTA 일치</div>
+<div class="match-item">✓ CTA 활성화 조건 (두 동의서 모두 동의 시) — PRD 3-3. 동의서 CTA 활성화 관련 · Figma 비활성 상태 UI 일치</div>
+<div class="match-item">✓ 노출 제한 정책 5종 — PRD 3-3. 노출 정책 명확 정의</div>
+<div class="match-item">✓ 이벤트 로그 location 매핑 4종 — PRD 3-4. 이벤트 로그 정의</div>
+<div class="match-item">✓ Dimmed 처리 — Figma 전 섹션에 Dimmed 인스턴스 존재</div>
+<div class="match-item">✓ 동의 완료 시 Snackbar — Figma "동의완료" 프레임에 Snackbar 컴포넌트 존재</div>
+</div>
+
+<div class="export-section">
+<button class="export-btn" onclick="exportResults()">📋 확정 결과 클립보드 복사</button>
+<div class="status" id="status">미정의 항목 5건 중 <span id="confirmed-count">0</span>건 확정됨</div>
+</div>
+
+<script>
+const STORAGE_KEY = 'msd_inapp_bottomsheet_checklist';
+
+function loadState() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) {
+    const state = JSON.parse(saved);
+    Object.entries(state).forEach(([id, value]) => {
+      const item = document.querySelector(`.item[data-id="${id}"]`);
+      if (item) {
+        const btn = item.querySelector(`.option-btn[data-value="${value}"]`);
+        if (btn) btn.classList.add('selected');
+      }
+    });
+  }
+  updateStatus();
+}
+
+function saveState() {
+  const state = {};
+  document.querySelectorAll('.item').forEach(item => {
+    const id = item.dataset.id;
+    const selected = item.querySelector('.option-btn.selected');
+    if (selected) state[id] = selected.dataset.value;
+  });
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  updateStatus();
+}
+
+function updateStatus() {
+  const total = document.querySelectorAll('.item').length;
+  let confirmed = 0;
+  document.querySelectorAll('.item').forEach(item => {
+    if (item.querySelector('.option-btn.selected')) confirmed++;
+  });
+  document.getElementById('confirmed-count').textContent = confirmed;
+  document.querySelector('.export-btn').disabled = confirmed < total;
+}
+
+document.querySelectorAll('.option-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const item = this.closest('.item');
+    item.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    this.classList.add('selected');
+    saveState();
+  });
+});
+
+function exportResults() {
+  const results = [];
+  results.push('# 마수동 유도 인앱 바텀싯 3차 — 체크리스트 확정 결과\n');
+  document.querySelectorAll('.item').forEach(item => {
+    const id = item.dataset.id;
+    const header = item.querySelector('.item-header').textContent;
+    const selected = item.querySelector('.option-btn.selected');
+    const value = selected ? selected.textContent : '미확정';
+    results.push(`- #${id}: ${header} → **${value}**`);
+  });
+  navigator.clipboard.writeText(results.join('\n')).then(() => {
+    alert('클립보드에 복사되었습니다.');
+  });
+}
+
+loadState();
+</script>
+</body>
+</html>

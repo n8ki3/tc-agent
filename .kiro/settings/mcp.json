@@ -5,11 +5,23 @@
       "type": "http",
       "autoApprove": [
         "get_design_context",
-        "get_design_context",
-        "get_design_context",
         "get_screenshot",
-        "get_screenshot",
-        "get_metadata"
+        "get_metadata",
+        "get_variable_defs",
+        "get_code_connect_map",
+        "get_code_connect_suggestions",
+        "send_code_connect_mappings",
+        "add_code_connect_map",
+        "get_context_for_code_connect",
+        "get_libraries",
+        "search_design_system",
+        "get_figjam",
+        "use_figma",
+        "generate_figma_design",
+        "generate_diagram",
+        "upload_assets",
+        "create_new_file",
+        "whoami"
       ]
     }
   }

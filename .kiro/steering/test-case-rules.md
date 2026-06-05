@@ -23,6 +23,7 @@
 - 이벤트 로그 정의서에 명시된 이벤트명과 파라미터
 - 확정된 회의록/논의 결과
 - **피그마 화면에 존재하는 네비게이션 요소** (뒤로가기 버튼, 닫기 버튼 등 — 존재 자체가 근거)
+- **Tech Spec에 명시된 API 분기 조건 및 에러 처리** (pre-Condition 정밀화, 분기 케이스 발견 용도)
 
 ### 근거로 인정되지 않는 것 (추측)
 
@@ -162,12 +163,12 @@ TC에 기본 동작을 추측해서 넣지 않는다.
 | Category2 | 화면 Depth 2단계 (하위 화면/섹션) |
 | Category3 | 화면 Depth 3단계 (세부 영역, 필요 시) |
 | Level | High / Medium / Low (우선순위 판단 기준 참조) |
-| pre-Condition | 테스트 실행 전 필요한 데이터/상태, 테스트 데이터 포함 |
+| pre-Condition | 테스트 실행 전 필요한 데이터/상태, 테스트 데이터 포함. Tech Spec이 있으면 API 상태값을 괄호로 병기 (예: "참여 완료 유저 (`isJoined=true`)") |
 | Test Procedure | 해당 화면 Depth까지 이동한 이후의 동작만 기입 (화면 이동 경로는 Category로 표현됨) |
 | Expected Result | 사용자가 인지할 수 있는 결과 (기대 결과 작성 기준 준수) |
 | Android | Android 수행 결과 (PASS / FAIL / N/T / N/A) |
 | iOS | iOS 수행 결과 (PASS / FAIL / N/T / N/A) |
-| Comment | 특이/공유사항, N/T·N/A 사유, 이슈 링크 |
+| Comment | 특이/공유사항, N/T·N/A 사유, 이슈 링크, 연관 API 정보 (예: `API: POST /pcs/challenge/v1/action/perform`) |
 
 ### Category (화면 Depth) 작성 규칙
 
