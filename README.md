@@ -147,7 +147,7 @@ Tech Spec 분석 (API 분기 조건, 에러 코드) — 제공 시
 TC 생성 (md + html 동시) + 셀프 체크 (QA리드/개발자/PO)
   │
   ▼
-TC 확정 → Jira Epic에 TC HTML 자동 첨부
+TC 확정 → Google Sheets 시트 추가 (선택) → Jira Epic에 시트 링크 등록
 ```
 
 ---
@@ -173,13 +173,15 @@ qa-tc-agent/
 │   ├── agents/
 │   │   └── qa-tc-generator.md      ← 에이전트 정의
 │   ├── settings/
-│   │   └── mcp.json                ← Figma MCP 설정
+│   │   ├── mcp.json                ← Figma MCP 설정
+│   │   └── finda-stg-gspread.json  ← Google Sheets 크리덴셜
 │   └── steering/
 │       ├── qa-workflow.md           ← 전체 워크플로우 + Jira 연동
 │       ├── prd-analysis-rules.md    ← PRD 분석 규칙
 │       ├── figma-analysis-rules.md  ← Figma 분석 규칙
 │       ├── tech-spec-analysis-rules.md ← Tech Spec 분석 규칙
 │       ├── test-case-rules.md       ← TC 작성 규칙
+│       ├── gsheet-output-rules.md   ← Google Sheets 출력 규칙
 │       ├── feedback-log.md          ← 피드백 누적 → 규칙 승격
 │       └── language.md              ← 한국어 응답
 ├── scripts/
