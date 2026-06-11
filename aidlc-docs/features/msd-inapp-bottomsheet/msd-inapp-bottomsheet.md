@@ -128,9 +128,48 @@
 
 ## 7. 기술 요구사항
 
-- FE(Web) 단독 작업 (BE Tech Spec 없음)
+- FE(Web) 단독 작업
 - 1차 인앱 바텀싯 기능 종료 후 3차로 교체
-- 노출 제한 카운트는 프론트에서 관리 (로컬 스토리지 또는 서버 API — 미확인)
+- 노출 제한 카운트는 로컬 스토리지 기반으로 관리
+
+### API 엔드포인트
+
+| 화면/액션 | API | Method | 주요 파라미터 | 분기 조건 |
+|-----------|-----|--------|-------------|----------|
+| 바텀싯 노출 전 약관 그룹 조회 | /tms/v1/screen-group/screen-key/MKT_AGREE | GET | - | agreementGroups 빈 배열이면 렌더링 안 함 |
+| 약관 동의 여부 확인 | /tms/v1/agreement-content-user/is-agree?doc-seq-key={docSeqKey} | GET | docSeqKey | true: 동의 완료 / false: 미동의 |
+| 약관 동의 처리 (CTA 탭) | /tms/v1/agreement-content-user/terms | POST | termsId, agree | 성공 시 영구 미노출 + 스낵바 |
+
+### 응답값 기반 화면 분기
+
+| 응답 필드 | 값 | 화면 분기 |
+|-----------|---|----------|
+| is-agree (모든 docSeqKey) | 모두 true | 바텀싯 미노출 (이미 동의 완료) |
+| is-agree (하나라도) | false | 바텀싯 노출 후보 |
+| agreementGroups | 빈 배열 | 바텀싯 미렌더링 |
+
+### 네이티브 브릿지
+
+| 브릿지 | 사용 위치 | 설명 |
+|--------|----------|------|
+| NativeController.popWebview() | 신용관리/포인트함 — [아니요] CTA, API 미완료/이미 동의 폴백 | 웹뷰 닫기 (이탈 진행) |
+| NativeController.setUseBrowserBackAction({ backAction: 'DISPATCH_EVENT' }) | 포인트함/신용관리 — 노출 조건 통과 시 | 물리 백/스와이프 시 JS FindaAppBack 이벤트 발생 |
+| NativeController.setUseBrowserBackAction({ backAction: 'POP_WEBVIEW' }) | 포인트함/신용관리 — 노출 조건 미충족 또는 cleanup | 네이티브 기본 이탈로 원복 |
+
+### localStorage 키 (노출 제한)
+
+| 키 | 설명 |
+|----|------|
+| MSD_FIRST_SHOWN_AT | 최초 노출 시각 |
+| MSD_LAST_SHOWN_AT | 마지막 "아니요" 클릭 시각 (7일 쿨타임 시작) |
+| MSD_SHOWN_COUNT | 총 노출 횟수 |
+| MSD_CTA_CLICKED | CTA 동의 완료 여부 ('true') |
+| MSD_SHOWN_COUNT_{location} | 페이지별 노출 횟수 |
+| MSD_LAST_SHOWN_DATE | 마지막 노출 날짜 (당일 1회 판단) |
+
+### Snackbar 문구
+
+동의 완료 시 노출: `"핀다가 전송하는 광고성 정보 수신에 동의했어요.\n동의일{YYYY.MM.DD}"`
 
 ## 8. 미결/확인 필요 사항
 
@@ -148,4 +187,12 @@
 
 | # | 항목 | 상태 |
 |---|------|------|
-| 2 | Snackbar 구체적 문구 | 정책 확인 필요 (TC에서는 노출 여부만 확인) |
+| — | (없음) | — |
+
+### PRD 업데이트 반영 이력 (2026.06.10)
+
+| 변경 사항 | 이전 | 이후 |
+|-----------|------|------|
+| Snackbar 문구 | 미확정 (노출 여부만 확인) | `"핀다가 전송하는 광고성 정보 수신에 동의했어요.\n동의일{YYYY.MM.DD}"` 확정 (Tech Spec 기준) |
+| 기술 요구사항 | API 정보 없음 | Web Tech Spec 기반 API/브릿지/localStorage 키 반영 |
+| 용어 통일 | "Dimmed 이탈" | "Backdrop 탭" |
