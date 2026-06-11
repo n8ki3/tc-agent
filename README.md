@@ -1,6 +1,6 @@
 # QA TC Generator Agent
 
-PRD(기획문서)와 Figma 디자인을 분석하여 테스트 케이스를 자동 생성하는 Kiro 에이전트입니다.
+PRD(기획문서)와 Figma 디자인을 분석하여 테스트 케이스를 자동 생성하는 AI 에이전트입니다. 모든 작업 규칙을 SSOT로 관리하여 **Kiro·Codex·Claude Code·Cursor 등 어떤 AI 도구에서 실행해도 동일하게 동작**합니다.
 
 ## 기능
 
@@ -24,7 +24,7 @@ clone한 폴더를 **Kiro IDE에서 워크스페이스로 열기**만 하면 준
 
 ## 사전 요구사항
 
-- [Kiro IDE](https://kiro.dev) 설치
+- AI 도구: [Kiro IDE](https://kiro.dev) 또는 MCP를 지원하는 AI 코딩 도구(Codex, Claude Code, Cursor 등)
 - Figma 계정 (최초 1회 OAuth 인증 필요)
 - `.env` 파일에 Atlassian 인증 정보 (Jira/Confluence 연동 시):
   ```
@@ -36,6 +36,8 @@ clone한 폴더를 **Kiro IDE에서 워크스페이스로 열기**만 하면 준
 ---
 
 ## 사용 방법
+
+> 아래는 **Kiro** 기준 안내입니다. Codex·Claude Code·Cursor 등 다른 도구는 `docs/ai-collaboration/tools/`의 각 도구별 문서를 참고하세요. 어떤 도구든 진입점(`AGENTS.md` / `CLAUDE.md` / `.kiro/steering`)이 동일한 SSOT 규칙을 로드합니다.
 
 ### 1. Kiro에서 이 폴더를 워크스페이스로 열기
 
@@ -107,13 +109,17 @@ PRD가 업데이트됐어. 기존 명세랑 비교해서 변경된 부분 반영
 
 ### 5. 결과물 확인
 
-확정 후 자동으로 생성됩니다:
+확정 후 `aidlc-docs/features/{피처명}/` 폴더에 한 세트로 생성됩니다:
 
 | 파일 | 설명 |
 |------|------|
-| `aidlc-docs/features/{피처명}.md` | 통합 명세 |
-| `aidlc-docs/features/{피처명}-test-cases.md` | TC (마크다운) |
-| `aidlc-docs/features/{피처명}-test-cases.html` | TC (브라우저에서 열어보기) |
+| `{피처명}.md` | 통합 명세 |
+| `{피처명}-checklist.html` | 이해충돌 체크리스트 |
+| `{피처명}-test-cases.md` | TC (마크다운) |
+| `{피처명}-test-cases.html` | TC (브라우저에서 열어보기) |
+| `meta.json` | Jira Epic·스프레드시트 URL + 세션 핸드오프 상태(`status`/`lastStep`/`pendingItems`) |
+
+> `meta.json`은 세션이 끊기거나 다른 AI 도구로 전환되어도 진행 상태를 복구할 수 있게 합니다. 같은 피처를 다시 작업할 때 "어디까지 했는지" 재질문 없이 이어갑니다.
 
 ---
 
@@ -200,7 +206,7 @@ qa-tc-agent/
 
 ## 예시 결과물
 
-`examples/coupon-box/` 폴더에 실제 피처(쿠폰함 개선)를 분석한 결과물이 포함되어 있습니다. 어떤 형태로 결과가 나오는지 참고하세요.
+`examples/car-number-promo/` 폴더에 실제 피처(차번호 입력 프로모션)를 분석한 결과물(통합 명세, 체크리스트, TC md/html)이 포함되어 있습니다. 어떤 형태로 결과가 나오는지 품질 기준으로 참고하세요.
 
 ---
 

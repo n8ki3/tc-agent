@@ -49,4 +49,4 @@ qa-tc-agent/
 - 정책 규칙의 SSOT는 `docs/ai-collaboration/policies/`다. 규칙 수정은 이 원본에서만 한다.
 - 도구별 진입점(`AGENTS.md`, `CLAUDE.md`, `.kiro/steering/*`)에는 규칙을 복제하지 않는다. 참조/라우팅만 둔다.
 - 피처별 산출물은 `aidlc-docs/features/{feature-name}/`에 4종 세트(통합 명세, 체크리스트, TC md, TC html) + `meta.json`(Jira Epic/스프레드시트 URL)으로 관리한다.
-- 구조가 바뀌면 이 문서와 `docs/ai-collaboration/README.md`를 함께 갱신한다.
+- 구조(폴더 구성, 산출물 형식, 지원 도구 등)가 바뀌면 이 문서와 `docs/ai-collaboration/README.md`, 그리고 **사용자 문서인 `README.md`까지** 함께 갱신한다. 갱신 시 `qa-workflow.md`의 "문서 일괄 업데이트 누락 방지"(전수 검색 + 모순 재검색)를 적용한다.
