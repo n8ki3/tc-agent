@@ -47,5 +47,6 @@ qa-tc-agent/
 
 - 정책 규칙의 SSOT는 `docs/ai-collaboration/policies/`다. 규칙 수정은 이 원본에서만 한다.
 - 도구별 진입점(`AGENTS.md`, `CLAUDE.md`, `.kiro/steering/*`)에는 규칙을 복제하지 않는다. 참조/라우팅만 둔다.
-- 피처별 산출물은 `aidlc-docs/features/{feature-name}/`에 4종 세트(통합 명세, 체크리스트, TC md, TC html) + `meta.json`(Jira Epic/스프레드시트 URL)으로 관리한다.
+- 피처별 산출물은 `aidlc-docs/features/{feature-name}/`에 4종 세트(통합 명세, 체크리스트, TC md, TC html) + `meta.json`(Jira Epic/스프레드시트 URL + 세션 핸드오프 상태)으로 관리한다.
+- **피처 작업을 시작할 때 가장 먼저 해당 `meta.json`의 `status`/`lastStep`/`pendingItems`를 읽어 이전 세션의 진행 상태를 복구한다** (세션 핸드오프). 자세한 규칙은 `qa-workflow.md`의 "피처 메타 정보" 참조.
 - 구조가 바뀌면 이 문서와 `docs/ai-collaboration/README.md`를 함께 갱신한다.

@@ -111,9 +111,12 @@ PRD가 업데이트됐어. 기존 명세랑 비교해서 변경된 부분 반영
 
 | 파일 | 설명 |
 |------|------|
-| `aidlc-docs/features/{피처명}.md` | 통합 명세 |
-| `aidlc-docs/features/{피처명}-test-cases.md` | TC (마크다운) |
-| `aidlc-docs/features/{피처명}-test-cases.html` | TC (브라우저에서 열어보기) |
+| `aidlc-docs/features/{피처명}/{피처명}.md` | 통합 명세 |
+| `aidlc-docs/features/{피처명}/{피처명}-test-cases.md` | TC (마크다운) |
+| `aidlc-docs/features/{피처명}/{피처명}-test-cases.html` | TC (브라우저에서 열어보기) |
+| `aidlc-docs/features/{피처명}/meta.json` | Jira Epic·스프레드시트 URL + 세션 핸드오프 상태 |
+
+> `meta.json`은 세션이 끊기거나 다른 AI 도구로 전환되어도 작업을 이어갈 수 있게 진행 상태(`status`/`lastStep`/`pendingItems`)를 기록합니다. 같은 피처를 다시 작업할 때 "어디까지 했는지" 재질문 없이 복구됩니다.
 
 ---
 

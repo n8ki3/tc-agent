@@ -9,9 +9,10 @@
 작업을 시작하기 전에 아래 순서로 읽는다.
 
 1. 이 문서 (`docs/ai-collaboration/README.md`)
-2. [`policies/qa-workflow.md`](./policies/qa-workflow.md) — 전체 작업 흐름 (입력→분석→충돌검토→명세→TC→셀프체크)
-3. 작업 유형에 해당하는 정책 문서 (아래 "작업 라우팅" 참조)
-4. [`policies/language.md`](./policies/language.md) — 응답 언어 규칙
+2. **기존 피처 작업을 이어갈 때**: 해당 피처의 `aidlc-docs/features/{feature-name}/meta.json` — `status`/`lastStep`/`pendingItems`로 이전 세션 진행 상태 복구 (세션 핸드오프)
+3. [`policies/qa-workflow.md`](./policies/qa-workflow.md) — 전체 작업 흐름 (입력→분석→충돌검토→명세→TC→셀프체크)
+4. 작업 유형에 해당하는 정책 문서 (아래 "작업 라우팅" 참조)
+5. [`policies/language.md`](./policies/language.md) — 응답 언어 규칙
 
 ## 작업 라우팅 (작업 유형 → 필독 정책)
 

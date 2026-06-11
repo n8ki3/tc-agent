@@ -1,0 +1,14 @@
+{
+  "featureName": "car-number-promo",
+  "featureNameKo": "차번호 입력 프로모션 (주유권 추첨 이벤트)",
+  "jiraEpicKey": "",
+  "jiraEpicUrl": "",
+  "spreadsheetUrl": "",
+  "spreadsheetId": "",
+  "spreadsheetSheetName": "",
+  "status": "완료",
+  "lastStep": "PRD + 최종 Figma 기반 TC 생성 완료 (통합 명세, 체크리스트, TC md/html)",
+  "pendingItems": [],
+  "createdAt": "2026-05-29",
+  "updatedAt": "2026-05-29"
+}

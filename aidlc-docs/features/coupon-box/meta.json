@@ -1,0 +1,17 @@
+{
+  "featureName": "coupon-box",
+  "featureNameKo": "쿠폰함 개선",
+  "jiraEpicKey": "",
+  "jiraEpicUrl": "",
+  "spreadsheetUrl": "",
+  "spreadsheetId": "",
+  "spreadsheetSheetName": "",
+  "status": "완료",
+  "lastStep": "PRD v1.4 + Figma 기반 TC 생성 완료 (통합 명세, 체크리스트, TC md/html)",
+  "pendingItems": [
+    "디스클레이머 최종 법무 검토 진행 중",
+    "적용 중 쿠폰 만료 시 재진입 동작 미정의 (clickYn=true + EXPIRED 상태 분기 정책)"
+  ],
+  "createdAt": "2026-05-26",
+  "updatedAt": "2026-05-26"
+}

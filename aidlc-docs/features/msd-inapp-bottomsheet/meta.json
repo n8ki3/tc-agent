@@ -6,6 +6,9 @@
   "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/12Ogs16CCEe3N2LRHzjJAySsDl_mA0YuuQck2tSsk1Zc/edit?gid=749118361#gid=749118361",
   "spreadsheetId": "12Ogs16CCEe3N2LRHzjJAySsDl_mA0YuuQck2tSsk1Zc",
   "spreadsheetSheetName": "3차",
+  "status": "완료",
+  "lastStep": "Web Tech Spec 반영하여 TC 43→51건 업데이트(Snackbar 문구 확정, Backdrop 탭 용어 통일, 전체 동의/약관 상세 TC 추가), 스프레드시트 3차 시트 51건 갱신",
+  "pendingItems": [],
   "createdAt": "2026-06-05",
   "updatedAt": "2026-06-10"
 }
