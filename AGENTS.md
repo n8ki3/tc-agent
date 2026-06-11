@@ -40,11 +40,12 @@ qa-tc-agent/
 │   └── steering/                   ← Kiro 포인터 (#[[file:]]로 policies 참조)
 ├── aidlc-docs/features/{피처명}/    ← 생성된 산출물 (통합 명세, TC md/html, meta.json)
 ├── examples/                       ← 품질 벤치마크 결과물
-└── scripts/                        ← Jira Epic 생성/첨부 스크립트
+└── scripts/                        ← Jira Epic 생성 스크립트
 ```
 
 ## 핵심 원칙
 
+- **재발방지 우선** — 누락·오류·충돌이 발견되면 수정으로 끝내지 않는다. 근본 원인을 진단하고, 같은 문제가 다시 생길 수 없도록 구조/프로세스를 고친 뒤 피드백 로그에 남긴다. 단순 수정보다 재발방지가 더 중요하다 (상세: `policies/qa-workflow.md`의 "오류 대응 원칙").
 - 정책 규칙의 SSOT는 `docs/ai-collaboration/policies/`다. 규칙 수정은 이 원본에서만 한다.
 - 도구별 진입점(`AGENTS.md`, `CLAUDE.md`, `.kiro/steering/*`)에는 규칙을 복제하지 않는다. 참조/라우팅만 둔다.
 - 피처별 산출물은 `aidlc-docs/features/{feature-name}/`에 4종 세트(통합 명세, 체크리스트, TC md, TC html) + `meta.json`(Jira Epic/스프레드시트 URL)으로 관리한다.
