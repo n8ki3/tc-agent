@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 .next/
 portfolio/
+
+# webapp은 의도적으로 git 제외 (별도 관리, 추후 올릴 예정)
+# 올릴 때 아래 줄을 제거하면 됨
+webapp/
