@@ -1,0 +1,5376 @@
+{
+  "pymupdf": {
+    "total_pages": 23,
+    "strikethrough_texts": [],
+    "bold_texts": [],
+    "all_texts_sample": [
+      {
+        "page": 1,
+        "text": "PRD",
+        "flags": 0,
+        "font": "Type3 (4 0 R)",
+        "size": 14.3
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (5 0 R)",
+        "size": 14.3
+      },
+      {
+        "page": 1,
+        "text": "[26][2Q]",
+        "flags": 0,
+        "font": "Type3 (4 0 R)",
+        "size": 14.3
+      },
+      {
+        "page": 1,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 14.3
+      },
+      {
+        "page": 1,
+        "text": "개선",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 14.3
+      },
+      {
+        "page": 1,
+        "text": "0",
+        "flags": 0,
+        "font": "Type3 (7 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (8 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "히",
+        "flags": 0,
+        "font": "Type3 (9 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "스",
+        "flags": 0,
+        "font": "Type3 (10 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "토",
+        "flags": 0,
+        "font": "Type3 (11 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "리",
+        "flags": 0,
+        "font": "Type3 (12 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "및",
+        "flags": 0,
+        "font": "Type3 (13 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "개",
+        "flags": 0,
+        "font": "Type3 (14 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "요",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 1,
+        "text": "v1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "0",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Apr",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "20",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2026",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "v1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Apr",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "30",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2026",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "그로스",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "및",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "디자인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "sync",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "논의",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "반영",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "v1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "May",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "5",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2026",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "기획",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "차",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "확정안",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "v1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "3",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "May",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "14",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2026",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "디자인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "및",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "화면",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "정책",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "반영",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "tech",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "rev",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "ew",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "반영",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "이벤트로그",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "업데이트",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "v1",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "4",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "May",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "18",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "2026",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "추가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "논의에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "대한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "디자인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "및",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "정책",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "반영",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "이벤트로그",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "업데이트",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "문서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "버전",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "수정일",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "수정",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "사항",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "담당자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "관련",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "문",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "m",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "xpan",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "el",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Tech",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Spec",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "BE",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "F",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "gma",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "담당자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "PO",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "김예림",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "이전",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "문서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Des",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "gn",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "박성현",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Earth",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "박성민",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Mercur",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "y",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "@",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "조주영",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "QA",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "구분",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "담당자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "비고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "/",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "일정",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Request",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Access",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "-",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "M",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "xpanel",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Tech",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Spec",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "[26][2Q]",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "개선",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "Hand-of",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "f",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "개선",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "DD",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "[25][10]",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "A",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 1,
+        "text": "PP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 2,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (7 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (8 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "TL",
+        "flags": 0,
+        "font": "Type3 (7 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": ";",
+        "flags": 0,
+        "font": "Type3 (8 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "DR",
+        "flags": 0,
+        "font": "Type3 (7 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "1-1",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "한",
+        "flags": 0,
+        "font": "Type3 (42 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "줄",
+        "flags": 0,
+        "font": "Type3 (43 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "요",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "약",
+        "flags": 0,
+        "font": "Type3 (44 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "(Summary)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "사용자가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "다음에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "뭘",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "해야",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "하는지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "고민하지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "않아도",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "되도록",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "즉시",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "하단",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "목표",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "행동을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "보여주고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상세페이지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "없이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "바로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "한도조회를",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "시작할",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "수",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "있게",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "1-2",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "핵",
+        "flags": 0,
+        "font": "Type3 (42 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "심",
+        "flags": 0,
+        "font": "Type3 (47 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "목",
+        "flags": 0,
+        "font": "Type3 (48 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "표",
+        "flags": 0,
+        "font": "Type3 (49 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "(Ob",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "j",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "ect",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "ve)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "첫째",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "대비",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "한도조회",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "인트로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입률을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "현재",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "53.45%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "오픈",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이후",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "실험",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "기간",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "내",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "최",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "소",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "57%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "목표",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "60%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상향",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "64%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "까지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "개선한다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "둘째",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "목록",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "단계",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이탈률을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "현재",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "35.84%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "30%",
+        "flags": 0,
+        "font": "Type3 (50 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이하로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "낮춰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "제거",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "+",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "기본",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "선택",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "+",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "직접",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "구조가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "실제로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "행동",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "시작",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "마찰을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "줄이는지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "검증한다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "2",
+        "flags": 0,
+        "font": "Type3 (7 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (8 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "문",
+        "flags": 0,
+        "font": "Type3 (51 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "제",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "정",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "의",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 11.7
+      },
+      {
+        "page": 2,
+        "text": "2-1",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "배",
+        "flags": 0,
+        "font": "Type3 (13 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "경",
+        "flags": 0,
+        "font": "Type3 (14 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "(Background)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "규제",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "대응",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "목적으로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "도입되었고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "마수동",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "X",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "유저에게",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "정보성",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "CRM",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "발송하는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "수단으로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "활",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "용되었다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "현재는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "메시지가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "광고성",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "기준으로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "운영되면서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "명분이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "약화되었고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함의",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "역할",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "재정의가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "필요한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상황이다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "본",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "PRD",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "그",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "중",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "유지한다면",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "지금",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "퍼널",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "안에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "먼저",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "제거해야",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "할",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "마찰은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "무엇인가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "라는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "질문에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "답한다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "2-2",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "문",
+        "flags": 0,
+        "font": "Type3 (51 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "제",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "정",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "의",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "(Pa",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "n",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "Po",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "nt)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입하는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "사용자는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "대체로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "CRM",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "메시지를",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "통해",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "'",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "대출",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "있다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "'",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "사실을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "인지한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "뒤",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "유입된다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "사용자가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "현재",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "화면에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "마주하는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "경험",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "목록",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "화면에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "다음",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "act",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "on",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "유도가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "없다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "메인은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "무엇이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "있는지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "를",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "보여주는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "구조라",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "사용자가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "직접",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "클릭해야",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "다음",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "단",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "계로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이동할",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "수",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "있으나",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "카드를",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "클릭해야",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "한다는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "행동",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "자체가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "명확히",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "유도되지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "않음",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "퍼널",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "데이터상",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "쿠폰이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "개뿐인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상황에서도",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "35",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "84",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "이탈",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "중",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "2",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상세페이지는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "설득면이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "아닌",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "단순",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "경유지로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "기능하고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "있다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "진입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "후",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "클릭까지의",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "중앙값",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "2",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "초",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 2,
+        "text": "배포",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 2,
+        "text": "일정",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 2,
+        "text": "(ETA)",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 2,
+        "text": "10S",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "콘텐츠를",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "읽고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "설득되는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "공간이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "아니라",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "단순히",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "버튼을",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "누르기",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "위한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "경유지로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "기능함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "3",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "결국",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "시작하기까지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "불필요한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "클릭이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "많다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "목록",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "클릭",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "→",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "진입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "→",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "클릭",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "→",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "한도조회",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "인트로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "퍼널",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 7.1
+      },
+      {
+        "page": 3,
+        "text": "2-3",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "문",
+        "flags": 0,
+        "font": "Type3 (51 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "제",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "원",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "인",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "(Root",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "Cause)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "첫째",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "메인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "행동",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "시작",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "지점",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "(CTA)",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "목록이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "아니라",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "상세페이지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "뒤에",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "위치해",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "있다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "둘째",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "쿠폰함이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "관리",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "UI",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "설계되어",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "있어",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사용",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "시작보다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "탐색",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "·",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "확인이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "우선한",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "구조이다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "셋째",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "쿠폰이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "1",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "개뿐인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "상황에서도",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "지금",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이걸",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "클릭해서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사용하면",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "된다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "\"",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "는",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "적극적인",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "행동",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "전환",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "유",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "도가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "없다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "2-4",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (41 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "대",
+        "flags": 0,
+        "font": "Type3 (57 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "상",
+        "flags": 0,
+        "font": "Type3 (58 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "사",
+        "flags": 0,
+        "font": "Type3 (58 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "용",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "자",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "(Target",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "User)",
+        "flags": 0,
+        "font": "Type3 (40 0 R)",
+        "size": 9.3
+      },
+      {
+        "page": 3,
+        "text": "핵",
+        "flags": 0,
+        "font": "Type3 (42 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "심",
+        "flags": 0,
+        "font": "Type3 (47 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사",
+        "flags": 0,
+        "font": "Type3 (58 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "용",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "자",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (59 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "핀다에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "대출",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "조회",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이력이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "있으나",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "아직",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "약정하지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "않은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사용자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이미",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "핀다",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "내",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "탐색",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "경험이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "있어",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "혜택이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "재조회",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "및",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "약정",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "결정의",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "추가",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "동기로",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "작동할",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "가능성",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "높은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사용자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "부",
+        "flags": 0,
+        "font": "Type3 (60 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "가",
+        "flags": 0,
+        "font": "Type3 (14 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사",
+        "flags": 0,
+        "font": "Type3 (58 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "용",
+        "flags": 0,
+        "font": "Type3 (15 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "자",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (59 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "타사에서",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "대출",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "조회",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "이력이",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "있으나",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "아직",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "약정하지",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "않은",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "사용자",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "믹스패널",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": ":",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "Request",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "Access",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "-",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "M",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (45 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "xpanel",
+        "flags": 0,
+        "font": "Type3 (46 0 R)",
+        "size": 11.4
+      },
+      {
+        "page": 3,
+        "text": "쿠폰함",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "진입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "l",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "st",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "v",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ew",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "18",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "550",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "100",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "기준",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "모수",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "카드",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "클",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "릭",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "l",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "st",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "cl",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ck",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "11",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "900",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "64",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "16",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "최",
+        "flags": 0,
+        "font": "Type3 (63 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "대",
+        "flags": 0,
+        "font": "Type3 (57 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "손",
+        "flags": 0,
+        "font": "Type3 (64 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "실",
+        "flags": 0,
+        "font": "Type3 (47 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "구",
+        "flags": 0,
+        "font": "Type3 (65 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "간",
+        "flags": 0,
+        "font": "Type3 (14 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "(-35",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "84",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ")",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "쿠폰",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "진",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "입",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "pm",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "v",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ew",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "11",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "880",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "99",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "79",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CTA",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "클",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "릭",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "pm",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "cl",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ck",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "cta",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "9",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ",",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "915",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "83",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "48",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "상세",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "내",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "이탈",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "(-16",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "52",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ")",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "전",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "체",
+        "flags": 0,
+        "font": "Type3 (66 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "전",
+        "flags": 0,
+        "font": "Type3 (52 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "환",
+        "flags": 0,
+        "font": "Type3 (67 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "율",
+        "flags": 0,
+        "font": "Type3 (53 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "53",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ".",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "45",
+        "flags": 0,
+        "font": "Type3 (61 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "%",
+        "flags": 0,
+        "font": "Type3 (62 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "l",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "st",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "v",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ew",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "→",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "CP",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "pm",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "cl",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "i",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "ck",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "_",
+        "flags": 0,
+        "font": "Type3 (17 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "cta",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "단계",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "이벤트",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "모수",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "전환율",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "(",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "전",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "단",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "계",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "대비",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": ")",
+        "flags": 0,
+        "font": "Type3 (16 0 R)",
+        "size": 11.1
+      },
+      {
+        "page": 3,
+        "text": "비고",
+        "flags": 4,
+        "font": "WenQuanYiZenHei",
+        "size": 11.1
+      }
+    ]
+  },
+  "strikethrough_candidates": [],
+  "tables": {
+    "tables_found": 31,
+    "tables": [
+      {
+        "page": 1,
+        "rows": 2,
+        "cols": 1,
+        "header": [
+          "PRD. [26][2Q]\n쿠폰함 개선\n0. 히스토리 및 개요\n문서버전 수정일 수정사항 담당자\nv1.0 Apr 20, 2026 @\n김예림\nv1.1 Apr 30, 2026 sync @\n그로스및디자인 논의반영 김예림\nv1.2 May 5, 2026 1 @\n기획 차확정안 김예림\nv1.3 May 14, 2026 , @\n디자인및화면정책반영 김예림\ntech review ,\n반영\n이벤트로그업데이트\nv1.4 May 18, 2026 @\n추가논의에대한디자인및정책 김예림\n,\n반영\n이벤트로그업데이트\n/\n구분 담당자 비고 일정\nmixpan Request Access - Mixpanel\n관련문\nel\n서\nTech BE: Tech Spec. [26][2Q] Hand-of\n쿠폰함개선\nSpec f:\n쿠폰함개선\nFigma\n쿠폰함\nPO @ : DD. [25][10] A\n담당자 김예림 이전문서 쿠폰함\nPP\nDesign @\n박성현\nEarth @\n박성민\nMercur @\n조주영\ny"
+        ],
+        "sample_rows": [
+          [
+            "QA"
+          ]
+        ]
+      },
+      {
+        "page": 1,
+        "rows": 4,
+        "cols": 1,
+        "header": [
+          ""
+        ],
+        "sample_rows": [
+          [
+            "PRD. [26][2Q]\n쿠폰함 개선"
+          ],
+          [
+            "0. 히스토리 및 개요"
+          ],
+          [
+            "문서버전 수정일 수정사항 담당자"
+          ]
+        ]
+      },
+      {
+        "page": 1,
+        "rows": 7,
+        "cols": 4,
+        "header": [
+          "문서버전",
+          "수정일",
+          "수정사항",
+          "담당자"
+        ],
+        "sample_rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "v1.0",
+            "Apr 20, 2026",
+            "",
+            "@\n김예림"
+          ],
+          [
+            "v1.1",
+            "Apr 30, 2026",
+            "sync\n그로스및디자인 논의반영",
+            "@\n김예림"
+          ]
+        ]
+      },
+      {
+        "page": 1,
+        "rows": 10,
+        "cols": 4,
+        "header": [
+          "구분",
+          null,
+          "담당자",
+          "/\n비고 일정"
+        ],
+        "sample_rows": [
+          [
+            "관련문\n서",
+            "mixpan\nel",
+            "Request Access - Mixpanel",
+            null
+          ],
+          [
+            null,
+            "Tech\nSpec",
+            "BE: Tech Spec. [26][2Q] Hand-of\n쿠폰함개선\nf:\n쿠폰함개선",
+            null
+          ],
+          [
+            null,
+            "Figma",
+            "쿠폰함",
+            null
+          ]
+        ]
+      },
+      {
+        "page": 2,
+        "rows": 1,
+        "cols": 2,
+        "header": [
+          "(ETA)\n배포일정",
+          "10S"
+        ],
+        "sample_rows": []
+      }
+    ]
+  }
+}
