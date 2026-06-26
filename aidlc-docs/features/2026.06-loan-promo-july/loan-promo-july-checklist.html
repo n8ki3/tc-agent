@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이해충돌 체크리스트 — 비교대출 완료 추첨 포인트 지급 이벤트 (7월)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; background: #f5f5f5; color: #1a1a1a; padding: 24px; }
+  h1 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { color: #666; margin-bottom: 24px; font-size: 13px; }
+  h2 { font-size: 15px; font-weight: 700; margin: 24px 0 12px; padding: 8px 12px; border-radius: 6px; }
+  h2.conflict { background: #fef2f2; color: #dc2626; }
+  h2.undefined { background: #f5f3ff; color: #7c3aed; }
+  h2.ok { background: #f0fdf4; color: #16a34a; }
+  .item { background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #e5e7eb; }
+  .item.conflict { border-left-color: #dc2626; }
+  .item.undefined { border-left-color: #7c3aed; }
+  .item.ok { border-left-color: #16a34a; }
+  .item-title { font-weight: 600; margin-bottom: 8px; font-size: 14px; }
+  .source { font-size: 12px; color: #555; margin: 4px 0; line-height: 1.6; }
+  .source span { display: inline-block; margin-right: 4px; }
+  .options { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .opt-btn { padding: 6px 14px; border-radius: 20px; border: 1.5px solid #d1d5db; background: white; cursor: pointer; font-size: 12px; font-weight: 500; color: #374151; transition: all 0.15s; }
+  .opt-btn:hover { border-color: #6366f1; color: #6366f1; }
+  .opt-btn.selected-prd { background: #eff6ff; border-color: #2563eb; color: #2563eb; }
+  .opt-btn.selected-figma { background: #fdf4ff; border-color: #9333ea; color: #9333ea; }
+  .opt-btn.selected-check { background: #fff7ed; border-color: #ea580c; color: #ea580c; }
+  .opt-btn.selected-exclude { background: #f9fafb; border-color: #6b7280; color: #6b7280; }
+  .opt-btn.selected-ok { background: #f0fdf4; border-color: #16a34a; color: #16a34a; }
+  .status-bar { background: white; border-radius: 8px; padding: 14px 18px; margin-bottom: 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .stat { font-size: 13px; color: #555; }
+  .stat strong { color: #111; }
+  .export-btn { margin-left: auto; padding: 8px 18px; background: #4f46e5; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600; }
+  .export-btn:hover { background: #4338ca; }
+  .ok-label { font-size: 13px; color: #16a34a; font-weight: 500; }
+  .item-num { display: inline-block; background: #f3f4f6; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; margin-right: 6px; color: #6b7280; }
+</style>
+</head>
+<body>
+
+<h1>이해충돌 체크리스트</h1>
+<p class="subtitle">비교대출 완료 추첨 포인트 지급 이벤트 (7월) · FQA-2259 · 2026-06-26</p>
+
+<div class="status-bar">
+  <div class="stat">전체 항목: <strong id="total">0</strong></div>
+  <div class="stat">확정: <strong id="done">0</strong></div>
+  <div class="stat">미확정: <strong id="pending">0</strong></div>
+  <button class="export-btn" onclick="exportResult()">결과 복사</button>
+</div>
+
+<!-- ==================== 충돌 항목 ==================== -->
+<h2 class="conflict">⚠️ 충돌 항목 (PRD ↔ Tech Spec · PRD ↔ Figma)</h2>
+
+<div class="item conflict" data-id="C1">
+  <div class="item-title"><span class="item-num">#C1</span>당첨 페이지 분기 기준 — PRD 금액 기준 vs Tech Spec rewardItemType 기준</div>
+  <div class="source">📄 PRD: 4.1 화면 및 주요 정책 > "reward_amount = 100,000 → 10만원 당첨 페이지 / 0 &lt; reward_amount &lt; 100,000 → 랜덤포인트 당첨 페이지" (금액 기준)</div>
+  <div class="source">🔧 Tech Spec (Earth): 3. 챌린지 수행 API > 결과 화면 분기 처리 > "rewardItemType == FINDA_POINT → 랜덤 포인트 당첨 페이지 / rewardItemType == VOUCHER → 10만 포인트 당첨 페이지" (타입 기준)</div>
+  <div class="source" style="color:#ea580c;">→ 실질적으로 동일한 결과이나, FE 분기 구현 기준이 금액인지 타입인지 확인 필요. TC pre-Condition 작성 기준 확정 필요.</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'C1','prd')" data-choice="prd">PRD 기준 (금액)</button>
+    <button class="opt-btn" onclick="select(this,'C1','figma')" data-choice="figma">Tech Spec 기준 (rewardItemType)</button>
+    <button class="opt-btn" onclick="select(this,'C1','check')" data-choice="check">확인 필요</button>
+  </div>
+</div>
+
+<!-- ==================== 미정의 항목 ==================== -->
+<h2 class="undefined">❓ 미정의 항목 (PRD · Figma 모두 정의 없음)</h2>
+
+<div class="item undefined" data-id="U1">
+  <div class="item-title"><span class="item-num">#U1</span>이미 참여 완료한 유저가 프로모션 인트로 재방문 시 화면 상태</div>
+  <div class="source">📄 PRD: 중복 참여 방지 정책만 언급 — "이벤트 기간 중 1회만 참여 가능"</div>
+  <div class="source">🔧 Tech Spec (Earth): "2회차부터는 isCompleted=false, rewardAmount=0 응답 → FE는 이미 참여/미당첨 분기로 처리"</div>
+  <div class="source">🎨 Figma: 재방문 인트로 상태 화면 별도 정의 없음 (우측 세트가 해당 화면인지 불명확)</div>
+  <div class="source" style="color:#7c3aed;">→ CTA 버튼이 비활성/변경되는지, 별도 안내 문구가 노출되는지 확인 필요</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U1','check')" data-choice="check">정책 확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U1','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<div class="item undefined" data-id="U2">
+  <div class="item-title"><span class="item-num">#U2</span>isCompleted=false (미당첨/이미 참여) 상태의 화면 처리</div>
+  <div class="source">📄 PRD: 당첨된 경우 페이지 분기만 정의. 미당첨 화면 없음.</div>
+  <div class="source">🔧 Tech Spec (Earth): "isCompleted == false → 미당첨 / 이미 참여 안내" 분기 존재</div>
+  <div class="source">🎨 Figma: 미당첨 화면 없음</div>
+  <div class="source" style="color:#7c3aed;">→ 미당첨/이미 참여 시 어떤 화면을 보여주는지 정의 필요</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U2','check')" data-choice="check">정책 확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U2','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<div class="item undefined" data-id="U3">
+  <div class="item-title"><span class="item-num">#U3</span>랜덤포인트 당첨 페이지 (FINDA_POINT, 100~1,000P) 화면</div>
+  <div class="source">📄 PRD: "랜덤 포인트 페이지는 지급 포인트 금액 동적 노출 100~1,000P" 언급</div>
+  <div class="source">🎨 Figma: node-id=8154-55040 내에서 FINDA_POINT 당첨 화면이 명확히 식별되지 않음 (10만P 화면만 확인됨)</div>
+  <div class="source" style="color:#7c3aed;">→ 100~1,000P 당첨 화면 Figma 프레임 위치 확인 필요. 포인트 금액이 동적으로 표시되는 위치/형태 확인 필요.</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U3','check')" data-choice="check">Figma 화면 확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U3','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<div class="item undefined" data-id="U4">
+  <div class="item-title"><span class="item-num">#U4</span>당첨 페이지의 포인트 소멸 기한 표시 여부</div>
+  <div class="source">📄 PRD: "포인트 지급 후 30일 뒤 자동 소멸" 정책 존재</div>
+  <div class="source">🎨 Figma: 당첨 페이지에 소멸 기한 텍스트 표시 여부 확인 불가 (해상도 한계)</div>
+  <div class="source" style="color:#7c3aed;">→ 당첨 페이지에 "OO일 내 사용 가능" 등 소멸 기한이 텍스트로 표시되는지 확인 필요</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U4','check')" data-choice="check">정책 확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U4','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<div class="item undefined" data-id="U5">
+  <div class="item-title"><span class="item-num">#U5</span>집계 배너 문구 — 인트로 "n명이 도전 중" vs 결과 페이지 "n명이 포인트를 받았어요"</div>
+  <div class="source">📄 PRD: 4.1 화면 정책 > "지금까지 n명이 도전 중!" (인트로 한정)</div>
+  <div class="source">🔧 Tech Spec (Earth): 4. 집계 API > "지금까지 {TOTAL:JOINED}명이 포인트를 받았어요" (결과 페이지용)</div>
+  <div class="source">🎨 Figma: 인트로와 LA_loanlist_view에 각각 다른 배너 표현 존재</div>
+  <div class="source" style="color:#7c3aed;">→ 두 문구가 같은 API를 쓰는지, 노출 조건(TOTAL:JOINED &gt; 0)이 동일한지 확인 필요</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U5','prd')" data-choice="prd">PRD/Tech Spec 기준 확정</button>
+    <button class="opt-btn" onclick="select(this,'U5','check')" data-choice="check">확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U5','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<div class="item undefined" data-id="U6">
+  <div class="item-title"><span class="item-num">#U6</span>본인인증 화면 — 프로모션 전용 화면인지 기존 한도조회 공용 화면인지</div>
+  <div class="source">📄 PRD: "본인인증" 단계 언급만 있고 별도 프로모션 전용 화면 기술 없음</div>
+  <div class="source">🎨 Figma: 기획안 플로우에 본인인증 화면이 연결되어 있으나 기존 화면과의 차이 불명확</div>
+  <div class="source" style="color:#7c3aed;">→ 기존 한도조회 본인인증 화면과 동일하면 별도 TC 불필요. 프로모션 전용 변경사항이 있는지 확인 필요.</div>
+  <div class="options">
+    <button class="opt-btn" onclick="select(this,'U6','prd')" data-choice="prd">기존 화면과 동일 (TC 미생성)</button>
+    <button class="opt-btn" onclick="select(this,'U6','check')" data-choice="check">확인 필요</button>
+    <button class="opt-btn" onclick="select(this,'U6','exclude')" data-choice="exclude">TC에서 제외</button>
+  </div>
+</div>
+
+<!-- ==================== 일치 확인 ==================== -->
+<h2 class="ok">✅ 일치 확인 (충돌 없음)</h2>
+
+<div class="item ok" data-id="OK1">
+  <div class="item-title"><span class="item-num">✓</span>유입구 3종 — CRM PUSH / 스마트배너 / 핀다소식탭</div>
+  <div class="source">📄 PRD: 3.1 이벤트 스킴 · 5. 유입 채널 — CRM, 스마트배너, 핀다소식 포스트카드</div>
+  <div class="source">🎨 Figma: 플로우차트 A Type — 커스텀 인트로 진입점 3종 연결</div>
+  <div class="ok-label">→ 일치</div>
+</div>
+
+<div class="item ok" data-id="OK2">
+  <div class="item-title"><span class="item-num">✓</span>포인트 당첨 후 복귀 분기 — 가승인/올거절 유저별 분기</div>
+  <div class="source">📄 PRD: "가승인 유저 → LA_loanlist_view / 올거절 유저 → LD_intro_view"</div>
+  <div class="source">🔧 Tech Spec (Earth): "가승인 유저 → LA_loanlist_view / 올거절 유저 → LD_intro_view"</div>
+  <div class="ok-label">→ PRD · Tech Spec 일치</div>
+</div>
+
+<div class="item ok" data-id="OK3">
+  <div class="item-title"><span class="item-num">✓</span>중복 참여 방지 — 전체 기간 1회 (CI 기준)</div>
+  <div class="source">📄 PRD: 4.1 > "이벤트 기간 중 1회만 참여 가능 / 탈퇴 후 재참여 방지 / CI 어뷰징 방지"</div>
+  <div class="source">🔧 Tech Spec (Earth): "IDENTITY_ACTION_FREQUENCY_LIMIT — CI 기준 전체 기간 1회"</div>
+  <div class="ok-label">→ PRD · Tech Spec 일치</div>
+</div>
+
+<div class="item ok" data-id="OK4">
+  <div class="item-title"><span class="item-num">✓</span>[안내] 버튼 → 바텀싯 → 닫기 시 프로모션 인트로 복귀</div>
+  <div class="source">📄 PRD: 4.1 > "[안내] 클릭 시 바텀싯 노출 / 닫기·뒤로가기 → 기존 프로모션 인트로 복귀"</div>
+  <div class="source">🎨 Figma: 최종 디자인 — 인트로에서 [안내] 연결 → 바텀싯 → 복귀 화살표</div>
+  <div class="ok-label">→ PRD · Figma 일치</div>
+</div>
+
+<div class="item ok" data-id="OK5">
+  <div class="item-title"><span class="item-num">✓</span>이벤트 기간 — 2026.07.01 ~ 2026.07.15</div>
+  <div class="source">📄 PRD: 3.1 이벤트 스킴 > "2026.07.01(수) ~ 2026.07.15(수)"</div>
+  <div class="source">🎨 Figma: 인트로 화면 내 이벤트 기간 문구 포함</div>
+  <div class="ok-label">→ 일치</div>
+</div>
+
+<div class="item ok" data-id="OK6">
+  <div class="item-title"><span class="item-num">✓</span>10만P 당첨은 추후 수기 지급 (즉시 미지급)</div>
+  <div class="source">📄 PRD: 4.3 포인트 지급 정책 > "10만P 당첨자 — 단, 5만 포인트 초과 당첨자 당첨금은 8월 24일 일괄 지급"</div>
+  <div class="source">🔧 Tech Spec (Earth): "VOUCHER: 추후 수기 지급 (응답 시점에 포인트 미적립)"</div>
+  <div class="ok-label">→ PRD · Tech Spec 일치</div>
+</div>
+
+<div class="item ok" data-id="OK7">
+  <div class="item-title"><span class="item-num">✓</span>프로모션 인트로에 뒤로가기 버튼 존재</div>
+  <div class="source">📄 PRD: 헤더 구성 언급</div>
+  <div class="source">🎨 Figma: 최종 디자인 인트로 화면 헤더 좌측 뒤로가기(&lt;) 아이콘 존재</div>
+  <div class="ok-label">→ 일치 (네비게이션 TC 생성 대상)</div>
+</div>
+
+<script>
+const STORAGE_KEY = 'loan-promo-july-checklist';
+const decisions = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+
+function select(btn, id, choice) {
+  const item = btn.closest('.item');
+  item.querySelectorAll('.opt-btn').forEach(b => {
+    b.className = 'opt-btn';
+  });
+  const classMap = { prd: 'selected-prd', figma: 'selected-figma', check: 'selected-check', exclude: 'selected-exclude', ok: 'selected-ok' };
+  btn.classList.add(classMap[choice] || 'selected-ok');
+  decisions[id] = { choice, label: btn.textContent };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(decisions));
+  updateStats();
+}
+
+function updateStats() {
+  const items = document.querySelectorAll('.item[data-id]');
+  const actionable = Array.from(items).filter(i => !i.dataset.id.startsWith('OK'));
+  const done = Object.keys(decisions).filter(k => !k.startsWith('OK')).length;
+  document.getElementById('total').textContent = actionable.length;
+  document.getElementById('done').textContent = done;
+  document.getElementById('pending').textContent = actionable.length - done;
+}
+
+function exportResult() {
+  const lines = ['=== 이해충돌 체크리스트 확정 결과 ===', '피처: 비교대출 완료 추첨 포인트 지급 이벤트 (7월)', '날짜: ' + new Date().toLocaleDateString('ko-KR'), ''];
+  document.querySelectorAll('.item[data-id]').forEach(item => {
+    const id = item.dataset.id;
+    const title = item.querySelector('.item-title').textContent.trim();
+    const dec = decisions[id];
+    lines.push(`[${id}] ${title}`);
+    lines.push(`  → ${dec ? dec.label : '미확정'}`);
+    lines.push('');
+  });
+  const text = lines.join('\n');
+  // 모달 표시
+  let modal = document.getElementById('export-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'export-modal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9999;display:flex;align-items:center;justify-content:center;';
+    modal.innerHTML = `
+      <div style="background:white;border-radius:12px;padding:24px;width:600px;max-width:90vw;max-height:80vh;display:flex;flex-direction:column;gap:12px;">
+        <div style="font-weight:700;font-size:15px;">결과 복사 (Ctrl+A → Ctrl+C)</div>
+        <textarea id="export-ta" style="width:100%;height:300px;font-size:12px;font-family:monospace;border:1px solid #e5e7eb;border-radius:6px;padding:10px;resize:none;"></textarea>
+        <div style="display:flex;gap:8px;justify-content:flex-end;">
+          <button onclick="document.getElementById('export-ta').select();document.execCommand('copy');this.textContent='복사됨!';setTimeout(()=>this.textContent='복사',1500);" style="padding:8px 16px;background:#4f46e5;color:white;border:none;border-radius:6px;cursor:pointer;font-weight:600;">복사</button>
+          <button onclick="document.getElementById('export-modal').remove();" style="padding:8px 16px;background:#f3f4f6;border:none;border-radius:6px;cursor:pointer;font-weight:600;">닫기</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+  }
+  document.getElementById('export-ta').value = text;
+  document.getElementById('export-modal').style.display = 'flex';
+  setTimeout(() => document.getElementById('export-ta').select(), 50);
+}
+
+// 저장된 상태 복원
+window.onload = () => {
+  Object.entries(decisions).forEach(([id, dec]) => {
+    const item = document.querySelector(`.item[data-id="${id}"]`);
+    if (!item) return;
+    item.querySelectorAll('.opt-btn').forEach(btn => {
+      if (btn.dataset.choice === dec.choice) {
+        const classMap = { prd: 'selected-prd', figma: 'selected-figma', check: 'selected-check', exclude: 'selected-exclude', ok: 'selected-ok' };
+        btn.classList.add(classMap[dec.choice] || 'selected-ok');
+      }
+    });
+  });
+  updateStats();
+};
+</script>
+</body>
+</html>
