@@ -1,0 +1,439 @@
+{
+  "page_title": "[26.04] 차번호 입력 프로모션 (주유권 추첨 이벤트)",
+  "page_version": 32,
+  "html_length": 66950,
+  "analysis": {
+    "strikethrough_count": 0,
+    "bold_count": 45,
+    "highlight_count": 0,
+    "table_count": 5,
+    "heading_count": 18
+  },
+  "strikethrough_texts": [],
+  "bold_texts": [
+    "핵심 목표:",
+    "서브 목표:",
+    "핵심 KPI",
+    "보조 KPI",
+    "예상 비용, 성과 시뮬레이션",
+    "총 예산: 68만 원 내외",
+    "약 33% vs 53%",
+    "21% vs 31%",
+    "입력 전환율",
+    "혜택을 계기로 실제로 정보를 입력",
+    "퍼널 외부 입력 경로가 유효",
+    "사용자 경험 개선",
+    "CRM 풀 확대",
+    "추가 매출 기회 발굴",
+    "퍼널 단축 및 새로운 입력 구조로의 확장 가능성을 확인",
+    "대상자: 차번호 입력 X 유저",
+    "No.",
+    "유저 액션",
+    "화면",
+    "ui 정책",
+    "개발 요구사항",
+    "MKT_PM_260608",
+    "이벤트 키",
+    "설명",
+    "비고",
+    "유의사항",
+    "이벤트 기간",
+    "이벤트 대상",
+    "이벤트 참여 안내",
+    "이벤트 혜택 01"
+  ],
+  "highlight_texts": [],
+  "tables": [
+    {
+      "index": 1,
+      "rows": 5,
+      "cols": 4,
+      "header": [
+        "문서 버전",
+        "수정일",
+        "수정 사항",
+        "담당자"
+      ],
+      "sample_rows": [
+        [
+          {
+            "text": "v1.0",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          },
+          {
+            "text": "최초 작성",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "v2.0",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          },
+          {
+            "text": "유저 플로우 및 상세 페이지 수정기술 요구사항 및 관련 정책 추가",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "v3.0",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          },
+          {
+            "text": "혜택 지급 관련 정책 추가",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "rows": 13,
+      "cols": 3,
+      "header": [
+        "관련 문서",
+        "제안 문서",
+        "[26.04] 자동차 번호 입력 개선 제안"
+      ],
+      "sample_rows": [
+        [
+          {
+            "text": "기획 Figma",
+            "strikethrough": false
+          },
+          {
+            "text": "https://www.figma.com/design/qGRVOx184PDzePGWPKbOHe/%EC%B0%A8%EB%B2%88%ED%98%B8-",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "Tech Spec",
+            "strikethrough": false
+          },
+          {
+            "text": "Tech Spec. [26][2Q] 차번호 입력 프로모션 API HandOffhttps://findainc.atlassian.net/wiki/x",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "구분",
+            "strikethrough": false
+          },
+          {
+            "text": "담당자",
+            "strikethrough": false
+          },
+          {
+            "text": "히스토리",
+            "strikethrough": false
+          }
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "rows": 9,
+      "cols": 5,
+      "header": [
+        "No.",
+        "유저 액션",
+        "화면",
+        "ui 정책",
+        "개발 요구사항"
+      ],
+      "sample_rows": [
+        [
+          {
+            "text": "1.",
+            "strikethrough": false
+          },
+          {
+            "text": "유저 차량 번호 입력",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          },
+          {
+            "text": "default: ‘실시간 주유권 추첨하기’ 하단 CTA 비활성화유저가 유효한 차량번호 입력 시 하단 CTA 활성화하단 유의문구 삽입 필요 (이벤",
+            "strikethrough": false
+          },
+          {
+            "text": "이름 자동 입력 되어있고, 수정 불가능하도록차량번호 유효성 로직 추가 필요숫자 2자리 or 3자리 + 한글 + 숫자 4자리유저 이름 이후 플로우",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "2.",
+            "strikethrough": false
+          },
+          {
+            "text": "CTA 클릭 & 동의",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          },
+          {
+            "text": "프로모션 참여 여부 확인하여 참여 완료한 유저 재참여 시 안내 팝업 노출1의 프로모션 페이지 위에 노출‘확인’ CTA 클릭 시 홈으로 이동",
+            "strikethrough": false
+          },
+          {
+            "text": "프로모션 참여 여부는 리워드 지급 여부로 판단",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "*자세한 동의서 화면 예시 피그마 플로우 참고 부탁드립니다.",
+            "strikethrough": false
+          },
+          {
+            "text": "프로모션 미참여 유저에게 동의서 노출유저가 동의서명 옆에 '>' 클릭 시 동의서로 바로 이동되도록",
+            "strikethrough": false
+          },
+          {
+            "text": "동의서 스크린키:MKT_PM_260608노출 동의서 목록개인정보 제3자 제공 동의 (NICE 디앤알)개인 정보 수집·이용 동의광고성 정보 수신 ",
+            "strikethrough": false
+          }
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "rows": 10,
+      "cols": 3,
+      "header": [
+        "이벤트 키",
+        "설명",
+        "비고"
+      ],
+      "sample_rows": [
+        [
+          {
+            "text": "PM_car_view",
+            "strikethrough": false
+          },
+          {
+            "text": "프로모션 페이지 view",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "PM_car_click",
+            "strikethrough": false
+          },
+          {
+            "text": "프로모션 페이지 CTA click",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "PM_car_terms_click",
+            "strikethrough": false
+          },
+          {
+            "text": "동의서 확인 CTA click",
+            "strikethrough": false
+          },
+          {
+            "text": "",
+            "strikethrough": false
+          }
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "rows": 9,
+      "cols": 1,
+      "header": [
+        "🎁 혜택 구조 및 비용 시뮬레이션"
+      ],
+      "sample_rows": [
+        [
+          {
+            "text": "혜택",
+            "strikethrough": false
+          },
+          {
+            "text": "금액 (원)",
+            "strikethrough": false
+          },
+          {
+            "text": "확률",
+            "strikethrough": false
+          },
+          {
+            "text": "예상 인원 (명)",
+            "strikethrough": false
+          },
+          {
+            "text": "합계 (원)",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "주유권",
+            "strikethrough": false
+          },
+          {
+            "text": "10,000",
+            "strikethrough": false
+          },
+          {
+            "text": "0.75%",
+            "strikethrough": false
+          },
+          {
+            "text": "50",
+            "strikethrough": false
+          },
+          {
+            "text": "500,000",
+            "strikethrough": false
+          }
+        ],
+        [
+          {
+            "text": "포인트 A",
+            "strikethrough": false
+          },
+          {
+            "text": "200",
+            "strikethrough": false
+          },
+          {
+            "text": "3.00%",
+            "strikethrough": false
+          },
+          {
+            "text": "211",
+            "strikethrough": false
+          },
+          {
+            "text": "42,200",
+            "strikethrough": false
+          }
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "0. 히스토리 및 개요"
+    },
+    {
+      "level": 2,
+      "text": "1. 목표(Objective)"
+    },
+    {
+      "level": 2,
+      "text": "2. 배경 (Background)"
+    },
+    {
+      "level": 3,
+      "text": "2.1. 배경"
+    },
+    {
+      "level": 3,
+      "text": "2.2 기대효과"
+    },
+    {
+      "level": 2,
+      "text": "3. 상세 기획 (Scheme)"
+    },
+    {
+      "level": 3,
+      "text": "3.1 이벤트 스킴(Scheme)"
+    },
+    {
+      "level": 3,
+      "text": "3.2 User Flow 및 페이지 디자인 (피그마)"
+    },
+    {
+      "level": 2,
+      "text": "4. 기술 요구사항 (Tech Spec)"
+    },
+    {
+      "level": 3,
+      "text": "4-1.  화면 및 주요 정책"
+    },
+    {
+      "level": 3,
+      "text": "4-2. 이벤트 로그 정의"
+    },
+    {
+      "level": 3,
+      "text": "4-3. 주유권 및 포인트 지급 정책"
+    },
+    {
+      "level": 2,
+      "text": "5. 기타"
+    },
+    {
+      "level": 3,
+      "text": "5-1. 리걸 검토 관련"
+    },
+    {
+      "level": 3,
+      "text": "5-2. 동의서 관련"
+    },
+    {
+      "level": 2,
+      "text": "6. 킥오프 싱크 관련"
+    },
+    {
+      "level": 3,
+      "text": "6-1. 디자인 킥오프 논의사항"
+    },
+    {
+      "level": 3,
+      "text": "6-2. 개발 킥오프 논의사항"
+    }
+  ],
+  "status_macros": [],
+  "text_sample": "0. 히스토리 및 개요\n문서 버전\n수정일\n수정 사항\n담당자\nv1.0\n최초 작성\nv2.0\n유저 플로우 및 상세 페이지 수정\n기술 요구사항 및 관련 정책 추가\nv3.0\n혜택 지급 관련 정책 추가\nv3.1\n이벤트로그 추가\n화면 정책 수정\n관련 문서\n제안 문서\n[26.04] 자동차 번호 입력 개선 제안\n기획 Figma\nhttps://www.figma.com/design/qGRVOx184PDzePGWPKbOHe/%EC%B0%A8%EB%B2%88%ED%98%B8-%EC%9E%85%EB%A0%A5-%EC%9C%A0%EB%8F%84-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&t=L7iBGBZ0plkYfbjx-1\nTech Spec\nTech Spec. [26][2Q] 차번호 입력 프로모션 API HandOff\nhttps://findainc.atlassian.net/wiki/x/0gA_PwE\n구분\n담당자\n히스토리\n담당자\nGrowth\nhttps://finda.enterprise.slack.com/archives/C07V1PA2RPT/p1778237901619089\nDesign\nhttps://www.figma.com/design/1NnkaqvUDenNZYchGvEuDH/%EC%B0%A8%EB%B2%88%ED%98%B8-%EC%9E%85%EB%A0%A5-%EC%9C%A0%EB%8F%84-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1-10493&t=Zk46YUO5MOJqGgre-0\nhttps://www.figma.com/design/sQE6Jkb1sR08Vor7vLwxil/25-26-Marketing-Design?node-id=7361-46036&t=hgtuUAo4VNEDDn67-1\nEarth\nTech Spec. [26][2Q] 차번호 입력 프로모션 API HandOff\nMercury\nJupiter\nhttps://findainc.atlassian.net/wiki/x/0gA_PwE\n정보 보안\nhttps://finda.enterprise.slack.com/archives/C03JWD5RZPD/p1778228042457429\nSECR-1384\n7c308fa0-4f33-3186-b0e9-b1e063717a1c\nSystem Jira\n리걸\nhttps://findainc.atlassian.net/jira/core/projects/LGR/issues?jql=project%20%3D%20LGR%20ORDER%20BY%20created%20DESC%2C%20cf%5B10123%5D%20ASC&selectedIssue=LGR-1066\nQA\nFQA-2197\n7c308fa0-4f33-3186-b0e9-b1e063717a1c\nSystem Jira\n배포 일정 (ETA)\n1. 목표(Objective)\n핵심 목표:\n프로모션을 통해 차량 번호 미입력 유저의 입력 행동을 유도하여\nis_own_car = 1\n유저 수를 증가시키고, 퍼널 외부 입력 구조의 유효성을 검증한다.\n서브 목표:\n확장된 CRM 풀을 기반으로 차담대 약정(신청·실행) 증가 가능성 확인\n자동차담보대출 한도조회 건수 - 전체 한도조회 건수 중 비중\n26.03 기준 30.24% →\n10%p\n상승 목표\nTech Spec. [26][2Q] 차번호 입력 프로모션 API HandOff\n향후 퍼널 외부 입력 구조 및 신규 유입 구조 설계를 위한 근거 확보\n핵심 KPI\n프로모션 시작 시점 vs 종료 시점\nis_own_car = 1\n유저 수 순증 (절대값)\n보조 KPI\n프로모션 기간 내 참여 완료 인원 수 (절대값)\n목표 참여 완료 인원: 7,022명\nCRM/배너 CTR\n목표 CTR: CRM 약 0.64% / 배너 약 11.2%\n프로모션 페이지 진입 - 차량 번호 입력 CVR\n목표 CVR: 약 20.8%\n예상 비용, 성과 시뮬레이션\nhttps://docs.google.com/spreadsheets/d/1Y4gmvAmHKV4gyqTCbn3QL6_cQWKGzYt82ln18UeDuK4/edit?gid=1634399393#gid=1634399393&"
+}

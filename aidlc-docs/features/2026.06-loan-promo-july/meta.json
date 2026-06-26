@@ -1,0 +1,10 @@
+{
+  "featureName": "loan-promo-july",
+  "featureNameKo": "비교대출 완료 추첨 포인트 지급 이벤트 (7월)",
+  "jiraEpicKey": "FQA-2259",
+  "jiraEpicUrl": "https://findainc.atlassian.net/browse/FQA-2259",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1oukffgD3ob38symKq0FOpBenw9UOvZNtchNRqJim5bs",
+  "spreadsheetSheetName": "1차",
+  "createdAt": "2026-06-26",
+  "updatedAt": "2026-06-26"
+}

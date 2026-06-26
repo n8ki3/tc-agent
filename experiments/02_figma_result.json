@@ -1,0 +1,473 @@
+{
+  "file_key": "MQw5C0s5JNHTEFPhYJNlYI",
+  "node_id": "726:8226",
+  "structure_count": 77,
+  "text_count": 1848,
+  "flow_nodes_count": 24,
+  "structure_sample": [
+    {
+      "depth": 0,
+      "type": "CANVAS",
+      "name": "▶️ [26][2Q] 쿠폰함 개선 (디자인완료)",
+      "id": "726:8226",
+      "children_count": 1
+    },
+    {
+      "depth": 1,
+      "type": "SECTION",
+      "name": "[26][2Q] 쿠폰함 개선",
+      "id": "726:8228",
+      "children_count": 25
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "info",
+      "id": "726:8284",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "NameGroup",
+      "id": "726:8285",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Frame 2117907622",
+      "id": "744:5377",
+      "children_count": 1
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "0704_사용 가능한 쿠폰O",
+      "id": "726:10788",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Contents",
+      "id": "726:10789",
+      "children_count": 3
+    },
+    {
+      "depth": 3,
+      "type": "INSTANCE",
+      "name": "Button/CTA",
+      "id": "726:10799",
+      "children_count": 2
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "0704_사용 가능한 쿠폰O_다른쿠폰선택",
+      "id": "741:11331",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Contents",
+      "id": "741:11332",
+      "children_count": 3
+    },
+    {
+      "depth": 3,
+      "type": "INSTANCE",
+      "name": "Button/CTA",
+      "id": "741:11342",
+      "children_count": 2
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "0704_사용 가능한 쿠폰O_다른쿠폰선택",
+      "id": "793:5379",
+      "children_count": 3
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Contents",
+      "id": "793:5380",
+      "children_count": 3
+    },
+    {
+      "depth": 3,
+      "type": "INSTANCE",
+      "name": "Button/CTA",
+      "id": "793:5390",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "INSTANCE",
+      "name": "Component/Snackbar",
+      "id": "794:5556",
+      "children_count": 2
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "0704_사용 가능한 쿠폰X",
+      "id": "741:12159",
+      "children_count": 1
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Contents",
+      "id": "741:12160",
+      "children_count": 3
+    },
+    {
+      "depth": 2,
+      "type": "FRAME",
+      "name": "0704_사용 가능한 쿠폰O_만료쿠폰펼침",
+      "id": "731:10947",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "FRAME",
+      "name": "Contents",
+      "id": "731:10948",
+      "children_count": 2
+    },
+    {
+      "depth": 3,
+      "type": "INSTANCE",
+      "name": "Button/CTA",
+      "id": "731:10958",
+      "children_count": 2
+    }
+  ],
+  "texts_sample": [
+    {
+      "name": "Label",
+      "text": "Designer : ",
+      "depth": 5,
+      "style": {
+        "fontSize": 24.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "Name",
+      "text": "박성현",
+      "depth": 5,
+      "style": {
+        "fontSize": 24.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "Label",
+      "text": "PO :",
+      "depth": 5,
+      "style": {
+        "fontSize": 24.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "Name",
+      "text": "김예림",
+      "depth": 5,
+      "style": {
+        "fontSize": 24.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "PRD. [26][2Q] 쿠폰함 개선",
+      "depth": 5,
+      "style": {
+        "fontSize": 36.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "PRD. [26][2Q] 쿠폰함 개선",
+      "text": "PRD. [26][2Q] 쿠폰함 개선",
+      "depth": 7,
+      "style": {
+        "fontSize": 29.77777862548828,
+        "fontWeight": 700,
+        "textDecoration": "UNDERLINE"
+      }
+    },
+    {
+      "name": "그로스팀 요청 초안",
+      "text": "그로스팀 요청 초안",
+      "depth": 7,
+      "style": {
+        "fontSize": 29.77777862548828,
+        "fontWeight": 700,
+        "textDecoration": "UNDERLINE"
+      }
+    },
+    {
+      "name": "Google Doc (콘텐츠 내용) 카드 / 주택 / 연금",
+      "text": "Google Doc (콘텐츠 내용) 카드 / 주택 / 연금",
+      "depth": 7,
+      "style": {
+        "fontSize": 32.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "Benchmarks",
+      "text": "Benchmarks",
+      "depth": 7,
+      "style": {
+        "fontSize": 32.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "문제정의",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "body",
+      "text": "",
+      "depth": 7,
+      "style": {
+        "fontSize": 18.0,
+        "fontWeight": 400,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "근본원인",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "body",
+      "text": "",
+      "depth": 7,
+      "style": {
+        "fontSize": 18.0,
+        "fontWeight": 400,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "가설",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "body",
+      "text": "",
+      "depth": 7,
+      "style": {
+        "fontSize": 18.0,
+        "fontWeight": 400,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "Tradeoff & Tension",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "body",
+      "text": "",
+      "depth": 7,
+      "style": {
+        "fontSize": 18.0,
+        "fontWeight": 400,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "Unhappy Path",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "body",
+      "text": "",
+      "depth": 7,
+      "style": {
+        "fontSize": 18.0,
+        "fontWeight": 400,
+        "textDecoration": null
+      }
+    },
+    {
+      "name": "title",
+      "text": "Key Metric",
+      "depth": 7,
+      "style": {
+        "fontSize": 22.0,
+        "fontWeight": 700,
+        "textDecoration": null
+      }
+    }
+  ],
+  "flow_nodes": [
+    {
+      "id": "726:8294",
+      "name": "Sub Parts/Quick Link",
+      "type": "FRAME"
+    },
+    {
+      "id": "726:8296",
+      "name": "Sub Parts/Logo",
+      "type": "FRAME"
+    },
+    {
+      "id": "744:5379",
+      "name": "Sub Parts/Quick Link",
+      "type": "FRAME"
+    },
+    {
+      "id": "726:8301",
+      "name": "Sub Parts/Quick Link",
+      "type": "FRAME"
+    },
+    {
+      "id": "726:8303",
+      "name": "Sub Parts/Logo",
+      "type": "FRAME"
+    },
+    {
+      "id": "726:8312",
+      "name": "Sub Parts/Quick Link",
+      "type": "FRAME"
+    },
+    {
+      "id": "726:8314",
+      "name": "Sub Parts/Logo",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5561",
+      "name": "Sub Parts/Flowchart",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5564",
+      "name": "Sub Parts/Flowchart",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5567",
+      "name": "Sub Parts/Flowchart",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5571",
+      "name": "Sub Parts/Line",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5574",
+      "name": "Sub Parts/Line",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5577",
+      "name": "Sub Parts/Interaction",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5579",
+      "name": "Sub Parts/Interaction",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5581",
+      "name": "Sub Parts/Line",
+      "type": "FRAME"
+    },
+    {
+      "id": "794:5584",
+      "name": "Sub Parts/Line",
+      "type": "FRAME"
+    },
+    {
+      "id": "742:7666",
+      "name": "Handoff/Title",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "742:7669",
+      "name": "Handoff/Title",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "812:7560",
+      "name": "Handoff/Title",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "793:5377",
+      "name": "Handoff/Title",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "794:5617",
+      "name": "Handoff/DetailedFlow ",
+      "type": "INSTANCE"
+    },
+    {
+      "id": "I794:5617;19028:56",
+      "name": "Detailed Flow ",
+      "type": "TEXT"
+    },
+    {
+      "id": "794:5655",
+      "name": "Button/CTA --> Handoff/DetailedFlow ",
+      "type": "VECTOR"
+    },
+    {
+      "id": "794:5630",
+      "name": "Handoff/FlowArrowComment",
+      "type": "INSTANCE"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>비교대출 완료 추첨 포인트 지급 이벤트 (7월) — 테스트 케이스</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f8f9fa;color:#333;line-height:1.6;padding:24px}
+.container{max-width:1400px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}
+.meta{color:#666;font-size:13px;margin-bottom:24px}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.summary2{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:32px}
+.card{background:#fff;border-radius:8px;padding:16px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.card .num{font-size:28px;font-weight:700}
+.card .lbl{font-size:12px;color:#888;margin-top:2px}
+.card.high .num{color:#dc2626}
+.card.med .num{color:#d97706}
+.card.low .num{color:#2563eb}
+.cat{margin-bottom:28px}
+.cat-title{font-size:16px;font-weight:600;background:#e2e8f0;padding:8px 12px;border-radius:6px;margin-bottom:12px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);margin-bottom:16px}
+th,td{padding:10px 12px;text-align:left;font-size:12px;border-bottom:1px solid #f0f0f0;vertical-align:top;word-break:break-word}
+th{background:#f8fafc;font-weight:600;color:#555;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tr.row-pass{background:#eff6ff}
+tr.row-fail{background:#fef2f2}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.badge-high{background:#fef2f2;color:#dc2626}
+.badge-med{background:#fffbeb;color:#d97706}
+.badge-low{background:#eff6ff;color:#2563eb}
+select{padding:4px 6px;border:1px solid #d1d5db;border-radius:4px;font-size:11px;background:#fff}
+textarea.comment{width:100%;min-height:40px;padding:4px 6px;border:1px solid #d1d5db;border-radius:4px;font-size:11px;resize:vertical;font-family:inherit}
+.undefined{color:#7c3aed;font-weight:600}
+.note{background:#faf5ff;border:1px solid #e9d5ff;border-radius:6px;padding:8px 12px;font-size:12px;color:#7c3aed;margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>비교대출 완료 추첨 포인트 지급 이벤트 (7월) — 테스트 케이스</h1>
+<p class="meta">PRD (FQA-2245) + Figma + Tech Spec 확정 기반 | 작성: 2026-06-26 | Epic: FQA-2259</p>
+
+<div class="summary">
+<div class="card"><div class="num" id="cnt-total">14</div><div class="lbl">전체 TC</div></div>
+<div class="card high"><div class="num" id="cnt-high">7</div><div class="lbl">High</div></div>
+<div class="card med"><div class="num" id="cnt-med">5</div><div class="lbl">Medium</div></div>
+<div class="card low"><div class="num" id="cnt-low">2</div><div class="lbl">Low</div></div>
+</div>
+<div class="summary2">
+<div class="card" style="border-left:4px solid #8b5cf6"><div class="num" id="cnt-exec">0%</div><div class="lbl">실행률</div></div>
+<div class="card" style="border-left:4px solid #10b981"><div class="num" id="cnt-passrate">0%</div><div class="lbl">패스율</div></div>
+<div class="card" style="border-left:4px solid #2563eb"><div class="num" id="cnt-pass">0</div><div class="lbl">Pass</div></div>
+<div class="card" style="border-left:4px solid #dc2626"><div class="num" id="cnt-fail">0</div><div class="lbl">Fail</div></div>
+<div class="card" style="border-left:4px solid #9ca3af"><div class="num" id="cnt-nt">0</div><div class="lbl">N/T</div></div>
+<div class="card" style="border-left:4px solid #d1d5db"><div class="num" id="cnt-na">0</div><div class="lbl">N/A</div></div>
+</div>
+
+<!-- 프로모션 인트로 -->
+<div class="cat">
+<div class="cat-title">프로모션 인트로 (7건)</div>
+<table>
+<tr><th>TC_ID</th><th>Category1</th><th>Category2</th><th>Category3</th><th>Level</th><th>pre-Condition</th><th>Test Procedure</th><th>Expected Result</th><th>Android</th><th>iOS</th><th>Comment</th></tr>
+<tr>
+  <td>TC-01-01</td><td>프로모션 인트로</td><td>—</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>CRM PUSH 수신 (이벤트 기간 내)</td>
+  <td>1. CRM 메시지 선택</td>
+  <td>프로모션 인트로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)"></textarea></td>
+</tr>
+<tr>
+  <td>TC-01-02</td><td>프로모션 인트로</td><td>—</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>스마트배너 노출 (이벤트 기간 내)</td>
+  <td>1. 스마트배너 선택</td>
+  <td>프로모션 인트로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)"></textarea></td>
+</tr>
+<tr>
+  <td>TC-01-03</td><td>프로모션 인트로</td><td>—</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>핀다소식탭 진입 (이벤트 기간 내)</td>
+  <td>1. 이벤트 영역 선택</td>
+  <td>프로모션 인트로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)"></textarea></td>
+</tr>
+<tr>
+  <td>TC-01-04</td><td>프로모션 인트로</td><td>—</td><td>—</td>
+  <td><span class="badge badge-med">Medium</span></td>
+  <td>프로모션 인트로 진입</td>
+  <td>1. 화면 구성 확인</td>
+  <td>뒤로가기 버튼 노출<br>[안내] 버튼 노출</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK7</textarea></td>
+</tr>
+<tr>
+  <td>TC-01-05</td><td>프로모션 인트로</td><td>—</td><td>—</td>
+  <td><span class="badge badge-med">Medium</span></td>
+  <td>프로모션 인트로 진입</td>
+  <td>1. 뒤로가기 버튼 선택</td>
+  <td>이전 화면으로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK7</textarea></td>
+</tr>
+<tr>
+  <td>TC-01-06</td><td>프로모션 인트로</td><td>안내 바텀싯</td><td>—</td>
+  <td><span class="badge badge-med">Medium</span></td>
+  <td>프로모션 인트로 진입</td>
+  <td>1. [안내] 버튼 선택</td>
+  <td>안내 바텀싯 노출</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK4</textarea></td>
+</tr>
+<tr>
+  <td>TC-01-07</td><td>프로모션 인트로</td><td>안내 바텀싯</td><td>—</td>
+  <td><span class="badge badge-low">Low</span></td>
+  <td>안내 바텀싯 노출 상태</td>
+  <td>1. 닫기 선택</td>
+  <td>바텀싯 닫힘<br>프로모션 인트로 유지</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK4</textarea></td>
+</tr>
+</table>
+<div class="note">⚠️ <span class="undefined">[미정의 — U1]</span> 이미 참여 완료한 유저가 프로모션 인트로 재방문 시 화면 처리 정책 확인 필요 → 확정 후 TC 추가 예정</div>
+</div>
+
+<!-- 추첨 결과 FINDA_POINT -->
+<div class="cat">
+<div class="cat-title">추첨 결과 — FINDA_POINT 랜덤 포인트 즉시 지급 (4건)</div>
+<div class="note">⚠️ <span class="undefined">[미정의 — U3]</span> FINDA_POINT 당첨 화면 구성은 Figma 확인 후 기대 결과 보강 예정</div>
+<table>
+<tr><th>TC_ID</th><th>Category1</th><th>Category2</th><th>Category3</th><th>Level</th><th>pre-Condition</th><th>Test Procedure</th><th>Expected Result</th><th>Android</th><th>iOS</th><th>Comment</th></tr>
+<tr>
+  <td>TC-02-01</td><td>추첨 결과</td><td>FINDA_POINT</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>미참여 유저, 본인인증 완료 (<code>rewardItemType=FINDA_POINT</code>)</td>
+  <td>1. 추첨 결과 화면 진입 확인</td>
+  <td>FINDA_POINT 당첨 결과 화면 노출<br>즉시 지급 포인트(100~1,000P) 표시</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">C1: rewardItemType 기준 분기</textarea></td>
+</tr>
+<tr>
+  <td>TC-02-02</td><td>추첨 결과</td><td>FINDA_POINT</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>FINDA_POINT 결과 화면, 가승인 유저</td>
+  <td>1. CTA 선택</td>
+  <td>가승인 화면으로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK2</textarea></td>
+</tr>
+<tr>
+  <td>TC-02-03</td><td>추첨 결과</td><td>FINDA_POINT</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>FINDA_POINT 결과 화면, 올거절 유저</td>
+  <td>1. CTA 선택</td>
+  <td>올거절 화면으로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK2</textarea></td>
+</tr>
+<tr>
+  <td>TC-02-04</td><td>추첨 결과</td><td>FINDA_POINT</td><td>—</td>
+  <td><span class="badge badge-low">Low</span></td>
+  <td>전체 기간 내 동일 CI로 재참여 시도</td>
+  <td>1. 참여 흐름 재진입</td>
+  <td>중복 참여 차단 안내 노출</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK3: CI 기준 전체 기간 1회</textarea></td>
+</tr>
+</table>
+</div>
+
+<!-- 추첨 결과 VOUCHER -->
+<div class="cat">
+<div class="cat-title">추첨 결과 — VOUCHER 10만P 수기 지급 (3건)</div>
+<table>
+<tr><th>TC_ID</th><th>Category1</th><th>Category2</th><th>Category3</th><th>Level</th><th>pre-Condition</th><th>Test Procedure</th><th>Expected Result</th><th>Android</th><th>iOS</th><th>Comment</th></tr>
+<tr>
+  <td>TC-03-01</td><td>추첨 결과</td><td>VOUCHER</td><td>—</td>
+  <td><span class="badge badge-high">High</span></td>
+  <td>미참여 유저, 본인인증 완료 (<code>rewardItemType=VOUCHER</code>)</td>
+  <td>1. 추첨 결과 화면 진입 확인</td>
+  <td>VOUCHER 당첨 결과 화면 노출<br>10만P 즉시 지급이 아님을 안내하는 문구 노출</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">C1: rewardItemType 기준; OK6: 즉시 미지급</textarea></td>
+</tr>
+<tr>
+  <td>TC-03-02</td><td>추첨 결과</td><td>VOUCHER</td><td>—</td>
+  <td><span class="badge badge-med">Medium</span></td>
+  <td>VOUCHER 결과 화면, 가승인 유저</td>
+  <td>1. CTA 선택</td>
+  <td>가승인 화면으로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK2</textarea></td>
+</tr>
+<tr>
+  <td>TC-03-03</td><td>추첨 결과</td><td>VOUCHER</td><td>—</td>
+  <td><span class="badge badge-med">Medium</span></td>
+  <td>VOUCHER 결과 화면, 올거절 유저</td>
+  <td>1. CTA 선택</td>
+  <td>올거절 화면으로 이동</td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><select onchange="hlRow(this)"><option></option><option>Pass</option><option>Fail</option><option>N/T</option><option>N/A</option></select></td>
+  <td><textarea class="comment" oninput="saveComment(this)">OK2</textarea></td>
+</tr>
+</table>
+</div>
+
+</div>
+<script>
+const TOTAL = 14;
+function hlRow(sel) {
+  const tr = sel.closest('tr');
+  const selects = tr.querySelectorAll('select');
+  const vals = Array.from(selects).map(s => s.value);
+  tr.classList.remove('row-pass','row-fail');
+  if (vals.includes('Fail')) tr.classList.add('row-fail');
+  else if (vals.every(v => v === 'Pass' || v === 'N/A') && vals.some(v => v === 'Pass')) tr.classList.add('row-pass');
+  saveSelect(sel);
+  updateDash();
+}
+function saveSelect(sel) {
+  const tr = sel.closest('tr');
+  const id = tr.querySelector('td').textContent.trim();
+  const selects = tr.querySelectorAll('select');
+  selects.forEach((s,i) => localStorage.setItem('tc_'+id+'_sel_'+i, s.value));
+}
+function saveComment(ta) {
+  const tr = ta.closest('tr');
+  const id = tr.querySelector('td').textContent.trim();
+  localStorage.setItem('tc_'+id+'_comment', ta.value);
+}
+function updateDash() {
+  const selects = document.querySelectorAll('select');
+  let pass=0,fail=0,nt=0,na=0;
+  selects.forEach(s => {
+    if(s.value==='Pass') pass++;
+    else if(s.value==='Fail') fail++;
+    else if(s.value==='N/T') nt++;
+    else if(s.value==='N/A') na++;
+  });
+  const executed = pass + fail;
+  const execRate = TOTAL > 0 ? Math.round(executed/TOTAL*100) : 0;
+  const passRate = executed > 0 ? Math.round(pass/executed*100) : 0;
+  document.getElementById('cnt-exec').textContent = execRate+'%';
+  document.getElementById('cnt-passrate').textContent = passRate+'%';
+  document.getElementById('cnt-pass').textContent = pass;
+  document.getElementById('cnt-fail').textContent = fail;
+  document.getElementById('cnt-nt').textContent = nt;
+  document.getElementById('cnt-na').textContent = na;
+}
+function restoreState() {
+  document.querySelectorAll('tr[data-id], table tr').forEach(tr => {
+    const idCell = tr.querySelector('td');
+    if (!idCell) return;
+    const id = idCell.textContent.trim();
+    if (!id.startsWith('TC-')) return;
+    const selects = tr.querySelectorAll('select');
+    selects.forEach((s,i) => {
+      const v = localStorage.getItem('tc_'+id+'_sel_'+i);
+      if (v) { s.value = v; }
+    });
+    const ta = tr.querySelector('textarea.comment');
+    if (ta) {
+      const v = localStorage.getItem('tc_'+id+'_comment');
+      if (v !== null) ta.value = v;
+    }
+    const vals = Array.from(selects).map(s => s.value);
+    tr.classList.remove('row-pass','row-fail');
+    if (vals.includes('Fail')) tr.classList.add('row-fail');
+    else if (vals.every(v => v === 'Pass' || v === 'N/A') && vals.some(v => v === 'Pass')) tr.classList.add('row-pass');
+  });
+  updateDash();
+}
+restoreState();
+</script>
+</body>
+</html>
